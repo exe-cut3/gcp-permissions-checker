@@ -1,1 +1,1 @@
-# gcp-permissions-checker
+# GCP permissions checker
