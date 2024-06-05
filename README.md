@@ -2,7 +2,7 @@
 # GCP permissions checker
 
 
-<img src="/static/clouds.jpg" width="200" height="100">
+<img src="/static/clouds.jpg" width="400" height="400">
 
 GCP Permissions Checker is a simple Python script designed to enumerate (bruteforce) and test IAM permissions in Google Cloud Platform (GCP). This tool helps you to identify and validate the permissions associated with your GCP service accounts.
 
