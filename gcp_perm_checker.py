@@ -19,6 +19,7 @@ def get_caller_identity(credentials):
         print(f"Project Name: {project_info['name']}")
     except Exception as e:
         print(f"Failed to get caller identity: {e}")
+        exit(1)
 
 def test_permissions(credentials, project_id, permissions_list):
 
