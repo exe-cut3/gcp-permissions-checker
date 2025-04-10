@@ -7,17 +7,26 @@ from google.oauth2 import service_account, credentials
 from googleapiclient import discovery
 from tqdm import tqdm
 
-def get_caller_identity(credentials, project_id):
+def get_project_info(credentials, project_id):
     try:
         service = discovery.build('cloudresourcemanager', 'v1', credentials=credentials)
+        
+
+        project_info = service.projects().get(projectId=project_id).execute()
+        
+
         permissions_test = service.projects().testIamPermissions(
             resource=project_id,
             body={"permissions": ["resourcemanager.projects.get"]}
         ).execute()
+
         print("Authenticated successfully.")
-        print("Accessible permissions:", permissions_test.get("permissions", []))
+        print(f"Project ID: {project_info.get('projectId')}")
+        print(f"Project Name: {project_info.get('name')}")
+        print(f"Project Number: {project_info.get('projectNumber')}")
+        print(f"Accessible permissions: {permissions_test.get('permissions', [])}")
     except Exception as e:
-        print(f"Failed to verify caller identity: {e}")
+        print(f"Failed to get project info: {e}")
         exit(1)
 
 def test_permissions(credentials, project_id, permissions_list):
@@ -67,7 +76,7 @@ if __name__ == "__main__":
         print("Usage: ./gcp_perm_checker.py path/to/key.json or ./gcp_perm_checker.py -Token ACCESS_TOKEN -ProjectID PROJECT_ID")
         exit(1)
 
-    get_caller_identity(credentials, project_id)
+    get_project_info(credentials, project_id)
 
     try:
         consolidated_file = "permissions.txt"
@@ -81,4 +90,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nOperation cancelled by user. Exiting gracefully.")
         exit(0)
-
