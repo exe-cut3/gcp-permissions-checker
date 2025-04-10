@@ -16,3 +16,5 @@ You just need to provide a service account key JSON file (key.json) to start enu
 ## Usage
 
     ./gcp_perm_checker.py path/to/key.json
+    or
+    ./gcp_perm_checker.py -Token ACCESS_TOKEN -ProjectID PROJECT_ID
