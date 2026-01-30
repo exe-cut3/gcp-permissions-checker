@@ -1,0 +1,25 @@
+# Credentials (CRITICAL)
+key*.json
+*.pem
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+
+# Testing / Temporary
+test_perms.txt
+*.log
+*.har
+poc_*.py
+analyze_full_list.py
+launch_comparison.py
+
+# Specific Keys
+gcp-permissions-checker-*.json

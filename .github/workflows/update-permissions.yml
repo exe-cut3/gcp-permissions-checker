@@ -1,53 +1,61 @@
-name: Update GCP Permissions
+name: Update Permissions List
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # Every Monday at 03:00 UTC
+    - cron: '0 0 * * 0' # Weekly on Sunday
   workflow_dispatch:
 
 jobs:
   update-permissions:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install requests
-
-      - name: Run script to fetch permissions
-        run: python get_permissions.py
-
-      - name: Commit & push updated permissions.txt
         run: |
-          # Check if the critical permission exists — if not, assume something went wrong
-          if ! grep -Fxq 'resourcemanager.projects.get' permissions.txt; then
-            echo "resourcemanager.projects.get not found — likely an error. Skipping commit."
-            exit 0
+          pip install -r requirements.txt
+
+      - name: Create credentials file
+        run: |
+          # Decoding the base64 secret to a file
+          echo "${{ secrets.GCP_SA_KEY }}" | base64 --decode > key_action.json
+
+      - name: Fetch Permissions
+        run: |
+          python3 get_permissions.py --service-account key_action.json --out permissions.txt
+
+      - name: Check permissions file
+        run: |
+          if [ -s permissions.txt ]; then
+            echo "Permissions file generated successfully."
+            head -n 5 permissions.txt
+          else
+            echo "Error: permissions.txt is empty."
+            exit 1
           fi
 
-          # Save the newly generated version
-          cp permissions.txt permissions_new.txt
-          git checkout HEAD -- permissions.txt || touch permissions.txt
+      - name: Clean up credentials
+        if: always()
+        run: |
+          rm -f key_action.json
 
-          # Count how many new permissions were added
-          added=$(comm -13 <(sort permissions.txt) <(sort permissions_new.txt) | wc -l)
-
-          if [ "$added" -eq 0 ]; then
-            echo "No new permissions. Skipping commit."
-            exit 0
-          fi
-
-          # Overwrite the old file and commit changes
-          mv permissions_new.txt permissions.txt
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@users.noreply.github.com"
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add permissions.txt
-          git commit -m "Auto-update: $added new permissions added [cron]"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to permissions.txt"
+          else
+            git commit -m "Weekly permissions update [skip ci]"
+            git push
+          fi
