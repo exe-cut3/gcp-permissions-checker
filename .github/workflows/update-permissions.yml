@@ -2,8 +2,11 @@ name: Update Permissions List
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Weekly on Sunday
+    - cron: '0 23 * * *' # Run daily at 23:00 UTC (1 hour before Watchdog)
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-permissions:
@@ -11,12 +14,13 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -26,10 +30,12 @@ jobs:
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         run: |
+          # Create the key file from the secret
           echo "$GCP_SA_KEY" > key_action.json
 
       - name: Fetch Permissions
         run: |
+          # Fetch permissions using the service account key
           python3 get_permissions.py --service-account key_action.json --out permissions.txt
 
       - name: Check permissions file
@@ -53,10 +59,14 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Add the permissions file
           git add permissions.txt
+          
+          # Check if there are changes before committing
           if git diff --staged --quiet; then
             echo "No changes to permissions.txt"
           else
-            git commit -m "Weekly permissions update [skip ci]"
+            git commit -m "Daily permissions update [skip ci]"
             git push
           fi
