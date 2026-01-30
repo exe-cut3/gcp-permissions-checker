@@ -23,9 +23,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Create credentials file
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         run: |
-          # Decoding the base64 secret to a file
-          echo "${{ secrets.GCP_SA_KEY }}" | base64 --decode > key_action.json
+          echo "$GCP_SA_KEY" > key_action.json
 
       - name: Fetch Permissions
         run: |
