@@ -57,16 +57,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+
+          # Check for changes in permissions.txt relative to HEAD
+          # We fetch the script output to use as commit message
+          python3 scripts/commit_helper.py > commit_msg.txt
+          
+          COMMIT_MSG=$(cat commit_msg.txt)
+          
+          if [ -z "$COMMIT_MSG" ] || [ "$COMMIT_MSG" = "No changes detected." ]; then
+            echo "No changes to permissions.txt. Skipping commit."
+            exit 0
+          fi
+          
+          echo "Changes detected. Committing with message: $COMMIT_MSG"
+          
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Add the permissions file
           git add permissions.txt
-          
-          # Check if there are changes before committing
-          if git diff --staged --quiet; then
-            echo "No changes to permissions.txt"
-          else
-            git commit -m "Daily permissions update [skip ci]"
-            git push
-          fi
+          git commit -m "$COMMIT_MSG"
+          git push
