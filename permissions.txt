@@ -4684,6 +4684,9 @@ compute.regions.list
 compute.reservationBlocks.get
 compute.reservationBlocks.list
 compute.reservationBlocks.performMaintenance
+compute.reservationSlots.get
+compute.reservationSlots.list
+compute.reservationSlots.update
 compute.reservationSubBlocks.get
 compute.reservationSubBlocks.list
 compute.reservationSubBlocks.performMaintenance
@@ -4975,6 +4978,8 @@ confidentialcomputing.challenges.verify
 confidentialcomputing.locations.get
 confidentialcomputing.locations.list
 config.artifacts.import
+config.automigrationconfig.get
+config.automigrationconfig.update
 config.deployments.create
 config.deployments.delete
 config.deployments.deleteState
@@ -9999,12 +10004,16 @@ observability.links.delete
 observability.links.get
 observability.links.list
 observability.links.update
+observability.locations.get
+observability.locations.list
 observability.operations.cancel
 observability.operations.delete
 observability.operations.get
 observability.operations.list
 observability.scopes.get
 observability.scopes.update
+observability.settings.get
+observability.settings.update
 observability.traceScopes.create
 observability.traceScopes.delete
 observability.traceScopes.get
@@ -12429,6 +12438,7 @@ workloadmanager.evaluations.update
 workloadmanager.executions.delete
 workloadmanager.executions.get
 workloadmanager.executions.list
+workloadmanager.insights.delete
 workloadmanager.insights.export
 workloadmanager.insights.listSapSystems
 workloadmanager.insights.write
