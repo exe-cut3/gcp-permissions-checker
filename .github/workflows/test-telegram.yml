@@ -1,0 +1,24 @@
+name: Test Telegram Alert
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-failure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simulate Failure
+        run: |
+          echo "Simulating a crash..."
+          exit 1
+
+      - name: Notify Failure via Telegram
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+        run: |
+          curl -s -X POST https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage \
+            -d chat_id=$TELEGRAM_TO \
+            -d parse_mode=Markdown \
+            -d text="🧪 *Test Alert* %0A%0AThis is a test notification from the **$GITHUB_REPOSITORY** CI/CD pipeline."
