@@ -3,6 +3,7 @@
 <img src="/static/clouds.jpg" width="400" height="400">
 
 A native Python tool to enumerate and validate Google Cloud IAM permissions via `iam.permissions.queryTestablePermissions` and `projects.testIamPermissions`.
+> **See the live history of permissions:** [GCP Permissions Watchdog](https://exe-cut3.github.io/gcp-permissions-watchdog/)
 
 ## Installation
 
