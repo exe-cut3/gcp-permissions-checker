@@ -30,7 +30,7 @@ python3 gcp_perm_checker.py --token <ACCESS_TOKEN> --project <PROJECT_ID>
 
 ## CI/CD & Maintenance
 
-The repository uses GitHub Actions (`.github/workflows/update-permissions.yml`) to schedule weekly updates of the `permissions.txt` master list.
+The repository uses GitHub Actions (`.github/workflows/update-permissions.yml`) to schedule daily updates of the `permissions.txt` master list.
 
 **Manual Update**
 ```bash
