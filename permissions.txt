@@ -333,6 +333,7 @@ aiplatform.provisionedThroughputs.cancel
 aiplatform.provisionedThroughputs.create
 aiplatform.provisionedThroughputs.get
 aiplatform.provisionedThroughputs.list
+aiplatform.provisionedThroughputs.split
 aiplatform.provisionedThroughputs.update
 aiplatform.ragCorpora.create
 aiplatform.ragCorpora.delete
@@ -1882,6 +1883,9 @@ blockchainvalidatormanager.operations.cancel
 blockchainvalidatormanager.operations.delete
 blockchainvalidatormanager.operations.get
 blockchainvalidatormanager.operations.list
+businessaicode.locations.generateContent
+businessaicode.locations.queryConfiguration
+businessaicode.locations.sendTelemetry
 capacityplanner.capacityPlans.get
 capacityplanner.capacityPlans.list
 capacityplanner.forecasts.list
