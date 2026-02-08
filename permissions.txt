@@ -1883,9 +1883,6 @@ blockchainvalidatormanager.operations.cancel
 blockchainvalidatormanager.operations.delete
 blockchainvalidatormanager.operations.get
 blockchainvalidatormanager.operations.list
-businessaicode.locations.generateContent
-businessaicode.locations.queryConfiguration
-businessaicode.locations.sendTelemetry
 capacityplanner.capacityPlans.get
 capacityplanner.capacityPlans.list
 capacityplanner.forecasts.list
