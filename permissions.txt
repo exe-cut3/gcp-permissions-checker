@@ -6524,6 +6524,11 @@ datastore.entities.delete
 datastore.entities.get
 datastore.entities.list
 datastore.entities.update
+datastore.googleapis.com/schemas.create
+datastore.googleapis.com/schemas.delete
+datastore.googleapis.com/schemas.get
+datastore.googleapis.com/schemas.list
+datastore.googleapis.com/schemas.update
 datastore.indexes.create
 datastore.indexes.delete
 datastore.indexes.get
@@ -6540,6 +6545,11 @@ datastore.operations.cancel
 datastore.operations.delete
 datastore.operations.get
 datastore.operations.list
+datastore.schemas.create
+datastore.schemas.delete
+datastore.schemas.get
+datastore.schemas.list
+datastore.schemas.update
 datastore.statistics.get
 datastore.statistics.list
 datastore.userCreds.create
