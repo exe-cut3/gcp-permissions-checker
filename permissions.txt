@@ -1904,8 +1904,11 @@ blockchainvalidatormanager.operations.list
 businessaicode.locations.generateContent
 businessaicode.locations.queryConfiguration
 businessaicode.locations.sendTelemetry
+capacityplanner.capacityPlans.create
+capacityplanner.capacityPlans.delete
 capacityplanner.capacityPlans.get
 capacityplanner.capacityPlans.list
+capacityplanner.capacityPlans.update
 capacityplanner.forecasts.list
 capacityplanner.planAlertInsights.list
 capacityplanner.usageAlertInsights.list
@@ -2235,6 +2238,7 @@ chronicle.entities.batchValidate
 chronicle.entities.create
 chronicle.entities.delete
 chronicle.entities.find
+chronicle.entities.findEntityAlerts
 chronicle.entities.findRelatedEntities
 chronicle.entities.get
 chronicle.entities.import
@@ -5097,6 +5101,11 @@ configdelivery.rollouts.get
 configdelivery.rollouts.list
 configdelivery.rollouts.resume
 configdelivery.rollouts.suspend
+configdelivery.variants.create
+configdelivery.variants.delete
+configdelivery.variants.get
+configdelivery.variants.list
+configdelivery.variants.update
 connectors.actions.execute
 connectors.actions.list
 connectors.connections.create
@@ -5864,6 +5873,7 @@ databasecenter.products.list
 databasecenter.queryStats.list
 databasecenter.reportConfigs.create
 databasecenter.reportConfigs.delete
+databasecenter.reportConfigs.get
 databasecenter.reportConfigs.list
 databasecenter.reportConfigs.update
 databasecenter.userLabels.list
@@ -6192,6 +6202,10 @@ datalineage.runs.delete
 datalineage.runs.get
 datalineage.runs.list
 datalineage.runs.update
+datamigration.connectionProfiles.createTagBinding
+datamigration.connectionProfiles.deleteTagBinding
+datamigration.connectionProfiles.listEffectiveTags
+datamigration.connectionProfiles.listTagBindings
 datamigration.connectionprofiles.create
 datamigration.connectionprofiles.delete
 datamigration.connectionprofiles.get
@@ -6217,6 +6231,10 @@ datamigration.locations.list
 datamigration.mappingrules.getIamPolicy
 datamigration.mappingrules.import
 datamigration.mappingrules.setIamPolicy
+datamigration.migrationJobs.createTagBinding
+datamigration.migrationJobs.deleteTagBinding
+datamigration.migrationJobs.listEffectiveTags
+datamigration.migrationJobs.listTagBindings
 datamigration.migrationjobs.create
 datamigration.migrationjobs.delete
 datamigration.migrationjobs.demoteDestination
@@ -6240,6 +6258,10 @@ datamigration.operations.cancel
 datamigration.operations.delete
 datamigration.operations.get
 datamigration.operations.list
+datamigration.privateConnections.createTagBinding
+datamigration.privateConnections.deleteTagBinding
+datamigration.privateConnections.listEffectiveTags
+datamigration.privateConnections.listTagBindings
 datamigration.privateconnections.create
 datamigration.privateconnections.delete
 datamigration.privateconnections.get
@@ -6364,6 +6386,7 @@ dataplex.entryLinks.create
 dataplex.entryLinks.delete
 dataplex.entryLinks.get
 dataplex.entryLinks.reference
+dataplex.entryLinks.update
 dataplex.entryTypes.create
 dataplex.entryTypes.delete
 dataplex.entryTypes.get
@@ -6578,11 +6601,6 @@ datastore.entities.delete
 datastore.entities.get
 datastore.entities.list
 datastore.entities.update
-datastore.googleapis.com/schemas.create
-datastore.googleapis.com/schemas.delete
-datastore.googleapis.com/schemas.get
-datastore.googleapis.com/schemas.list
-datastore.googleapis.com/schemas.update
 datastore.indexes.create
 datastore.indexes.delete
 datastore.indexes.get
