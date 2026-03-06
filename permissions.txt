@@ -3538,6 +3538,7 @@ cloudjobdiscovery.tools.access
 cloudkms.autokeyConfigs.get
 cloudkms.autokeyConfigs.update
 cloudkms.cryptoKeyVersions.create
+cloudkms.cryptoKeyVersions.delete
 cloudkms.cryptoKeyVersions.destroy
 cloudkms.cryptoKeyVersions.get
 cloudkms.cryptoKeyVersions.list
@@ -3555,6 +3556,7 @@ cloudkms.cryptoKeyVersions.useToSign
 cloudkms.cryptoKeyVersions.useToVerify
 cloudkms.cryptoKeyVersions.viewPublicKey
 cloudkms.cryptoKeys.create
+cloudkms.cryptoKeys.delete
 cloudkms.cryptoKeys.get
 cloudkms.cryptoKeys.getIamPolicy
 cloudkms.cryptoKeys.list
@@ -3601,6 +3603,8 @@ cloudkms.projects.showEffectiveAutokeyConfig
 cloudkms.projects.showEffectiveKajEnrollmentConfig
 cloudkms.projects.showEffectiveKajPolicyConfig
 cloudkms.protectedResources.search
+cloudkms.retiredResources.get
+cloudkms.retiredResources.list
 cloudkms.singleTenantHsmInstanceProposals.approve
 cloudkms.singleTenantHsmInstanceProposals.create
 cloudkms.singleTenantHsmInstanceProposals.delete
