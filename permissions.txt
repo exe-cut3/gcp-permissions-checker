@@ -4714,6 +4714,7 @@ compute.regionTargetHttpsProxies.setSslCertificates
 compute.regionTargetHttpsProxies.setUrlMap
 compute.regionTargetHttpsProxies.update
 compute.regionTargetHttpsProxies.use
+compute.regionTargetTcpProxies.attach
 compute.regionTargetTcpProxies.create
 compute.regionTargetTcpProxies.createTagBinding
 compute.regionTargetTcpProxies.delete
@@ -4968,6 +4969,7 @@ compute.targetSslProxies.setSslCertificates
 compute.targetSslProxies.setSslPolicy
 compute.targetSslProxies.update
 compute.targetSslProxies.use
+compute.targetTcpProxies.attach
 compute.targetTcpProxies.create
 compute.targetTcpProxies.createTagBinding
 compute.targetTcpProxies.delete
@@ -6027,6 +6029,7 @@ dataform.config.update
 dataform.folders.addContents
 dataform.folders.create
 dataform.folders.delete
+dataform.folders.deleteTree
 dataform.folders.get
 dataform.folders.getIamPolicy
 dataform.folders.move
@@ -6062,6 +6065,7 @@ dataform.repositories.setIamPolicy
 dataform.repositories.update
 dataform.teamFolders.create
 dataform.teamFolders.delete
+dataform.teamFolders.deleteTree
 dataform.teamFolders.get
 dataform.teamFolders.getIamPolicy
 dataform.teamFolders.setIamPolicy
