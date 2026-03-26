@@ -3551,6 +3551,7 @@ cloudkms.cryptoKeyVersions.delete
 cloudkms.cryptoKeyVersions.destroy
 cloudkms.cryptoKeyVersions.get
 cloudkms.cryptoKeyVersions.list
+cloudkms.cryptoKeyVersions.managePqcSign
 cloudkms.cryptoKeyVersions.manageRawAesCbcKeys
 cloudkms.cryptoKeyVersions.manageRawAesCtrKeys
 cloudkms.cryptoKeyVersions.manageRawPKCS1Keys
@@ -5054,6 +5055,15 @@ confidentialcomputing.locations.list
 config.artifacts.import
 config.automigrationconfig.get
 config.automigrationconfig.update
+config.deploymentgrouprevisions.get
+config.deploymentgrouprevisions.list
+config.deploymentgroups.create
+config.deploymentgroups.delete
+config.deploymentgroups.deprovision
+config.deploymentgroups.get
+config.deploymentgroups.list
+config.deploymentgroups.provision
+config.deploymentgroups.update
 config.deployments.create
 config.deployments.delete
 config.deployments.deleteState
@@ -5899,14 +5909,20 @@ databaseinsights.activitySummary.fetch
 databaseinsights.aggregatedEvents.query
 databaseinsights.aggregatedStats.query
 databaseinsights.clusterEvents.query
+databaseinsights.databaseIssues.troubleshoot
+databaseinsights.dbCenter.query
+databaseinsights.dbPerformance.query
 databaseinsights.instanceEvents.query
 databaseinsights.locations.get
 databaseinsights.locations.list
 databaseinsights.performanceIssues.detect
 databaseinsights.performanceIssues.investigate
+databaseinsights.queryMetrics.fetch
 databaseinsights.recommendations.query
 databaseinsights.resourceRecommendations.query
+databaseinsights.systemMetrics.fetch
 databaseinsights.timeSeries.query
+databaseinsights.virtualDbxAgent.query
 databaseinsights.workloadRecommendations.fetch
 databasesconsole.databaseCenterViews.create
 databasesconsole.databaseCenterViews.delete
@@ -6397,6 +6413,8 @@ dataplex.entryGroups.useQueriesAspect
 dataplex.entryGroups.useRefreshCadenceAspect
 dataplex.entryGroups.useRelatedEntryLink
 dataplex.entryGroups.useSchemaAspect
+dataplex.entryGroups.useSchemaJoinAspect
+dataplex.entryGroups.useSchemaJoinEntryLink
 dataplex.entryGroups.useStorageAspect
 dataplex.entryGroups.useSynonymEntryLink
 dataplex.entryLinks.create
@@ -8200,6 +8218,7 @@ geminidataanalytics.dataAgents.list
 geminidataanalytics.dataAgents.update
 geminidataanalytics.locations.get
 geminidataanalytics.locations.list
+geminidataanalytics.locations.useDataEngineeringAgent
 geminidataanalytics.operations.cancel
 geminidataanalytics.operations.delete
 geminidataanalytics.operations.get
@@ -8539,6 +8558,7 @@ healthcare.fhirResources.purge
 healthcare.fhirResources.translateConceptMap
 healthcare.fhirResources.update
 healthcare.fhirStores.applyConsents
+healthcare.fhirStores.bulkDelete
 healthcare.fhirStores.configureSearch
 healthcare.fhirStores.create
 healthcare.fhirStores.deidentify
@@ -8755,6 +8775,7 @@ iap.web.getSettings
 iap.web.setIamPolicy
 iap.web.updateSettings
 iap.webServiceVersions.accessViaIAP
+iap.webServiceVersions.egressViaIAP
 iap.webServiceVersions.getIamPolicy
 iap.webServiceVersions.getSettings
 iap.webServiceVersions.remediate
