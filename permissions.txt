@@ -2500,7 +2500,6 @@ chronicle.investigationSteps.list
 chronicle.investigations.fetchAssociated
 chronicle.investigations.get
 chronicle.investigations.list
-chronicle.investigations.transitionReviewState
 chronicle.investigations.trigger
 chronicle.involvedEntities.get
 chronicle.involvedEntities.update
