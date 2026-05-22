@@ -2135,7 +2135,6 @@ ces.evaluationRuns.get
 ces.evaluationRuns.list
 ces.evaluations.create
 ces.evaluations.delete
-ces.evaluations.export
 ces.evaluations.get
 ces.evaluations.list
 ces.evaluations.update
@@ -3931,6 +3930,11 @@ cloudsql.backupRuns.export
 cloudsql.backupRuns.get
 cloudsql.backupRuns.list
 cloudsql.backupRuns.update
+cloudsql.blueGreenDeployments.create
+cloudsql.blueGreenDeployments.delete
+cloudsql.blueGreenDeployments.get
+cloudsql.blueGreenDeployments.list
+cloudsql.blueGreenDeployments.switchover
 cloudsql.databases.create
 cloudsql.databases.delete
 cloudsql.databases.get
@@ -4453,6 +4457,9 @@ compute.healthChecks.listTagBindings
 compute.healthChecks.update
 compute.healthChecks.use
 compute.healthChecks.useReadOnly
+compute.hosts.get
+compute.hosts.getVersion
+compute.hosts.list
 compute.httpHealthChecks.create
 compute.httpHealthChecks.createTagBinding
 compute.httpHealthChecks.delete
@@ -10422,11 +10429,6 @@ networkservices.gateways.listEffectiveTags
 networkservices.gateways.listTagBindings
 networkservices.gateways.update
 networkservices.gateways.use
-networkservices.googleTagGatewayPolicies.create
-networkservices.googleTagGatewayPolicies.delete
-networkservices.googleTagGatewayPolicies.get
-networkservices.googleTagGatewayPolicies.list
-networkservices.googleTagGatewayPolicies.update
 networkservices.grpcRoutes.create
 networkservices.grpcRoutes.delete
 networkservices.grpcRoutes.get
