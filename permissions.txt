@@ -44,6 +44,10 @@ agentregistry.services.delete
 agentregistry.services.get
 agentregistry.services.list
 agentregistry.services.update
+aiplatform.agentAnomalyDetectionScopes.create
+aiplatform.agentAnomalyDetectionScopes.delete
+aiplatform.agentAnomalyDetectionScopes.get
+aiplatform.agentAnomalyDetectionScopes.list
 aiplatform.agentExamples.create
 aiplatform.agentExamples.delete
 aiplatform.agentExamples.get
@@ -54,6 +58,9 @@ aiplatform.agents.delete
 aiplatform.agents.get
 aiplatform.agents.list
 aiplatform.agents.update
+aiplatform.analyzedSessions.aggregate
+aiplatform.analyzedSessions.get
+aiplatform.analyzedSessions.list
 aiplatform.annotationSpecs.create
 aiplatform.annotationSpecs.delete
 aiplatform.annotationSpecs.get
@@ -339,6 +346,10 @@ aiplatform.models.get
 aiplatform.models.list
 aiplatform.models.update
 aiplatform.models.upload
+aiplatform.monitoredAgents.disable
+aiplatform.monitoredAgents.enable
+aiplatform.monitoredAgents.get
+aiplatform.monitoredAgents.list
 aiplatform.nasJobs.cancel
 aiplatform.nasJobs.create
 aiplatform.nasJobs.delete
@@ -1761,6 +1772,11 @@ bigquery.models.updateMetadata
 bigquery.models.updateTag
 bigquery.objectRefs.read
 bigquery.objectRefs.write
+bigquery.propertyGraphs.create
+bigquery.propertyGraphs.delete
+bigquery.propertyGraphs.get
+bigquery.propertyGraphs.list
+bigquery.propertyGraphs.update
 bigquery.readsessions.create
 bigquery.readsessions.getData
 bigquery.readsessions.update
@@ -2508,8 +2524,6 @@ chronicle.involvedEntities.update
 chronicle.iocAssociations.batchGet
 chronicle.iocAssociations.fetchRelated
 chronicle.iocAssociations.get
-chronicle.iocMatches.get
-chronicle.iocMatches.list
 chronicle.iocState.get
 chronicle.iocState.update
 chronicle.iocs.batchGet
@@ -3779,6 +3793,11 @@ cloudlocationfinder.cloudLocations.update
 cloudlocationfinder.locations.get
 cloudlocationfinder.locations.list
 cloudmessaging.messages.create
+cloudmessaging.topicSubscriptions.create
+cloudmessaging.topicSubscriptions.delete
+cloudmessaging.topicSubscriptions.get
+cloudmessaging.topicSubscriptions.list
+cloudmessaging.topicSubscriptions.update
 cloudmigration.velostrataendpoints.connect
 cloudnotifications.activities.list
 cloudnumberregistry.customRanges.create
@@ -5555,6 +5574,10 @@ contactcenterinsights.datasets.delete
 contactcenterinsights.datasets.get
 contactcenterinsights.datasets.list
 contactcenterinsights.datasets.update
+contactcenterinsights.diagnostics.create
+contactcenterinsights.diagnostics.delete
+contactcenterinsights.diagnostics.get
+contactcenterinsights.diagnostics.list
 contactcenterinsights.discoveries.delete
 contactcenterinsights.discoveries.generate
 contactcenterinsights.discoveries.get
@@ -8282,6 +8305,11 @@ firebaseauth.users.get
 firebaseauth.users.sendEmail
 firebaseauth.users.update
 firebasecloudmessaging.messages.create
+firebasecloudmessaging.topicSubscriptions.create
+firebasecloudmessaging.topicSubscriptions.delete
+firebasecloudmessaging.topicSubscriptions.get
+firebasecloudmessaging.topicSubscriptions.list
+firebasecloudmessaging.topicSubscriptions.update
 firebasecrash.issues.update
 firebasecrash.reports.get
 firebasecrashlytics.config.get
