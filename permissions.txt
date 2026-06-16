@@ -6584,6 +6584,14 @@ dataplex.assets.readData
 dataplex.assets.setIamPolicy
 dataplex.assets.update
 dataplex.assets.writeData
+dataplex.changeRequests.adminDelete
+dataplex.changeRequests.delete
+dataplex.changeRequests.get
+dataplex.changeRequests.getIamPolicy
+dataplex.changeRequests.list
+dataplex.changeRequests.setIamPolicy
+dataplex.changeRequests.update
+dataplex.changeRequests.use
 dataplex.content.create
 dataplex.content.delete
 dataplex.content.get
@@ -6611,6 +6619,7 @@ dataplex.dataAttributes.getIamPolicy
 dataplex.dataAttributes.list
 dataplex.dataAttributes.setIamPolicy
 dataplex.dataAttributes.update
+dataplex.dataProducts.approve
 dataplex.dataProducts.create
 dataplex.dataProducts.delete
 dataplex.dataProducts.get
@@ -6656,6 +6665,7 @@ dataplex.entryGroups.get
 dataplex.entryGroups.getIamPolicy
 dataplex.entryGroups.import
 dataplex.entryGroups.list
+dataplex.entryGroups.requestChanges
 dataplex.entryGroups.setIamPolicy
 dataplex.entryGroups.update
 dataplex.entryGroups.useContactsAspect
@@ -6713,6 +6723,7 @@ dataplex.glossaries.get
 dataplex.glossaries.getIamPolicy
 dataplex.glossaries.import
 dataplex.glossaries.list
+dataplex.glossaries.requestChanges
 dataplex.glossaries.setIamPolicy
 dataplex.glossaries.update
 dataplex.glossaryCategories.create
@@ -10047,6 +10058,9 @@ monitoring.uptimeCheckConfigs.delete
 monitoring.uptimeCheckConfigs.get
 monitoring.uptimeCheckConfigs.list
 monitoring.uptimeCheckConfigs.update
+navigationconnect.trips.cancel
+navigationconnect.trips.create
+navigationconnect.trips.get
 nestconsole.smarthomePreviews.update
 nestconsole.smarthomeProjects.create
 nestconsole.smarthomeProjects.delete
