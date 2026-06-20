@@ -1556,6 +1556,7 @@ baremetalsolution.luns.delete
 baremetalsolution.luns.evict
 baremetalsolution.luns.get
 baremetalsolution.luns.list
+baremetalsolution.luns.onDemandEvict
 baremetalsolution.luns.update
 baremetalsolution.maintenanceevents.addProposal
 baremetalsolution.maintenanceevents.approve
@@ -1596,6 +1597,7 @@ baremetalsolution.volumes.delete
 baremetalsolution.volumes.evict
 baremetalsolution.volumes.get
 baremetalsolution.volumes.list
+baremetalsolution.volumes.onDemandEvict
 baremetalsolution.volumes.rename
 baremetalsolution.volumes.resize
 baremetalsolution.volumes.update
@@ -2258,6 +2260,7 @@ chronicle.collectors.delete
 chronicle.collectors.get
 chronicle.collectors.list
 chronicle.collectors.update
+chronicle.connectorEvents.get
 chronicle.connectorInstanceLogs.get
 chronicle.connectorInstances.delete
 chronicle.connectorInstances.get
@@ -2419,6 +2422,9 @@ chronicle.extensionValidationReports.list
 chronicle.featuredContentNativeDashboards.get
 chronicle.featuredContentNativeDashboards.install
 chronicle.featuredContentNativeDashboards.list
+chronicle.featuredContentPlaybooks.get
+chronicle.featuredContentPlaybooks.install
+chronicle.featuredContentPlaybooks.list
 chronicle.featuredContentRules.list
 chronicle.featuredContentSearchQueries.get
 chronicle.featuredContentSearchQueries.install
@@ -2684,6 +2690,7 @@ chronicle.messages.get
 chronicle.messages.list
 chronicle.messages.update
 chronicle.moduleSettings.get
+chronicle.moduleSettings.modifyCaseList
 chronicle.moduleSettings.rebranding
 chronicle.moduleSettingsProperties.get
 chronicle.moduleSettingsProperties.testSettings
@@ -13185,6 +13192,8 @@ workloadmanager.evaluations.update
 workloadmanager.executions.delete
 workloadmanager.executions.get
 workloadmanager.executions.list
+workloadmanager.findings.create
+workloadmanager.findings.list
 workloadmanager.insights.delete
 workloadmanager.insights.export
 workloadmanager.insights.listSapSystems
