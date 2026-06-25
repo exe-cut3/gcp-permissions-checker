@@ -4290,6 +4290,8 @@ compute.addresses.setLabels
 compute.addresses.use
 compute.addresses.useInternal
 compute.advice.calendarMode
+compute.advice.capacity
+compute.advice.capacityHistory
 compute.autoscalers.create
 compute.autoscalers.delete
 compute.autoscalers.get
@@ -13180,6 +13182,13 @@ workloadcertificate.workloadRegistrations.delete
 workloadcertificate.workloadRegistrations.get
 workloadcertificate.workloadRegistrations.list
 workloadcertificate.workloadRegistrations.update
+workloadidentity.locations.get
+workloadidentity.locations.list
+workloadidentity.operations.cancel
+workloadidentity.operations.delete
+workloadidentity.operations.get
+workloadidentity.operations.list
+workloadidentity.serviceAgents.create
 workloadmanager.actuations.create
 workloadmanager.actuations.delete
 workloadmanager.actuations.get
