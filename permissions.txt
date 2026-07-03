@@ -1427,6 +1427,7 @@ backupdr.backupPlanAssociations.triggerBackupForComputeDisk
 backupdr.backupPlanAssociations.triggerBackupForComputeInstance
 backupdr.backupPlanAssociations.triggerBackupForFilestoreInstance
 backupdr.backupPlanAssociations.updateForAlloydbCluster
+backupdr.backupPlanAssociations.updateForCloudSqlInstance
 backupdr.backupPlanAssociations.updateForComputeDisk
 backupdr.backupPlanAssociations.updateForComputeInstance
 backupdr.backupPlanAssociations.updateForFilestoreInstance
@@ -1715,6 +1716,7 @@ biglake.tables.getIamPolicy
 biglake.tables.list
 biglake.tables.listPartitions
 biglake.tables.lock
+biglake.tables.register
 biglake.tables.setIamPolicy
 biglake.tables.update
 biglake.tables.updateData
@@ -6699,6 +6701,9 @@ dataplex.entryGroups.requestChanges
 dataplex.entryGroups.setIamPolicy
 dataplex.entryGroups.update
 dataplex.entryGroups.useContactsAspect
+dataplex.entryGroups.useContextAspect
+dataplex.entryGroups.useContextEntry
+dataplex.entryGroups.useContextEntryLink
 dataplex.entryGroups.useDataProfileAspect
 dataplex.entryGroups.useDataQualityRuleTemplateAspect
 dataplex.entryGroups.useDataQualityRuleTemplateEntry
@@ -6829,6 +6834,7 @@ dataproc.autoscalingPolicies.update
 dataproc.autoscalingPolicies.use
 dataproc.batches.analyze
 dataproc.batches.cancel
+dataproc.batches.computeTuningConfig
 dataproc.batches.create
 dataproc.batches.delete
 dataproc.batches.get
