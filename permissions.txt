@@ -6528,10 +6528,6 @@ datalineage.runs.delete
 datalineage.runs.get
 datalineage.runs.list
 datalineage.runs.update
-datamigration.connectionProfiles.createTagBinding
-datamigration.connectionProfiles.deleteTagBinding
-datamigration.connectionProfiles.listEffectiveTags
-datamigration.connectionProfiles.listTagBindings
 datamigration.connectionprofiles.create
 datamigration.connectionprofiles.delete
 datamigration.connectionprofiles.get
@@ -6557,10 +6553,6 @@ datamigration.locations.list
 datamigration.mappingrules.getIamPolicy
 datamigration.mappingrules.import
 datamigration.mappingrules.setIamPolicy
-datamigration.migrationJobs.createTagBinding
-datamigration.migrationJobs.deleteTagBinding
-datamigration.migrationJobs.listEffectiveTags
-datamigration.migrationJobs.listTagBindings
 datamigration.migrationjobs.create
 datamigration.migrationjobs.delete
 datamigration.migrationjobs.demoteDestination
@@ -6584,10 +6576,6 @@ datamigration.operations.cancel
 datamigration.operations.delete
 datamigration.operations.get
 datamigration.operations.list
-datamigration.privateConnections.createTagBinding
-datamigration.privateConnections.deleteTagBinding
-datamigration.privateConnections.listEffectiveTags
-datamigration.privateConnections.listTagBindings
 datamigration.privateconnections.create
 datamigration.privateconnections.delete
 datamigration.privateconnections.get
@@ -7003,6 +6991,7 @@ datastream.connectionProfiles.create
 datastream.connectionProfiles.createTagBinding
 datastream.connectionProfiles.delete
 datastream.connectionProfiles.deleteTagBinding
+datastream.connectionProfiles.deriveDestinationSchema
 datastream.connectionProfiles.destinationTypes
 datastream.connectionProfiles.discover
 datastream.connectionProfiles.get
