@@ -4066,6 +4066,7 @@ cloudtasks.cmekConfig.get
 cloudtasks.cmekConfig.update
 cloudtasks.locations.get
 cloudtasks.locations.list
+cloudtasks.operations.get
 cloudtasks.queues.create
 cloudtasks.queues.delete
 cloudtasks.queues.get
@@ -7180,7 +7181,12 @@ designcenter.spaces.setIamPolicy
 designcenter.spaces.update
 developerconnect.accountConnectors.create
 developerconnect.accountConnectors.delete
+developerconnect.accountConnectors.fetchUserRepositories
 developerconnect.accountConnectors.get
+developerconnect.accountConnectors.gitProxyRead
+developerconnect.accountConnectors.gitProxyWrite
+developerconnect.accountConnectors.httpProxyRead
+developerconnect.accountConnectors.httpProxyWrite
 developerconnect.accountConnectors.list
 developerconnect.accountConnectors.update
 developerconnect.connections.constructGitHubAppManifest
