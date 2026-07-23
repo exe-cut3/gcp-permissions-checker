@@ -2008,6 +2008,7 @@ billing.anomalies.get
 billing.anomalies.list
 billing.anomalies.submitFeedback
 billing.resourceCosts.get
+billing.resourcebudgets.configureSpendCap
 billing.resourcebudgets.read
 billing.resourcebudgets.write
 binaryauthorization.attestors.create
@@ -2776,6 +2777,8 @@ chronicle.propertySchemaDefinitions.delete
 chronicle.propertySchemaDefinitions.get
 chronicle.propertySchemaDefinitions.update
 chronicle.queries.suggestSql
+chronicle.queryMetrics.get
+chronicle.queryMetrics.list
 chronicle.referenceLists.create
 chronicle.referenceLists.get
 chronicle.referenceLists.list
@@ -4007,11 +4010,13 @@ cloudsql.databases.update
 cloudsql.instances.addEntraIdCertificate
 cloudsql.instances.addServerCa
 cloudsql.instances.addServerCertificate
+cloudsql.instances.cancelAgentSession
 cloudsql.instances.clone
 cloudsql.instances.connect
 cloudsql.instances.create
 cloudsql.instances.createBackupDrBackup
 cloudsql.instances.createTagBinding
+cloudsql.instances.createTestingAgentSession
 cloudsql.instances.delete
 cloudsql.instances.deleteTagBinding
 cloudsql.instances.demoteMaster
@@ -4019,9 +4024,11 @@ cloudsql.instances.executeSql
 cloudsql.instances.export
 cloudsql.instances.failover
 cloudsql.instances.get
+cloudsql.instances.getAgentSession
 cloudsql.instances.getDiskShrinkConfig
 cloudsql.instances.import
 cloudsql.instances.list
+cloudsql.instances.listAgentSessions
 cloudsql.instances.listEffectiveTags
 cloudsql.instances.listEntraIdCertificates
 cloudsql.instances.listServerCas
@@ -4492,6 +4499,8 @@ compute.globalForwardingRules.pscUpdate
 compute.globalForwardingRules.setLabels
 compute.globalForwardingRules.setTarget
 compute.globalForwardingRules.update
+compute.globalFrontendSettings.get
+compute.globalFrontendSettings.update
 compute.globalNetworkEndpointGroups.attachNetworkEndpoints
 compute.globalNetworkEndpointGroups.create
 compute.globalNetworkEndpointGroups.createTagBinding
