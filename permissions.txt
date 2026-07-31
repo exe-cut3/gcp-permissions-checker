@@ -3790,6 +3790,7 @@ cloudkms.ekmConnections.update
 cloudkms.ekmConnections.use
 cloudkms.ekmConnections.verifyConnectivity
 cloudkms.importJobs.create
+cloudkms.importJobs.delete
 cloudkms.importJobs.get
 cloudkms.importJobs.getIamPolicy
 cloudkms.importJobs.list
@@ -3802,6 +3803,7 @@ cloudkms.keyHandles.get
 cloudkms.keyHandles.list
 cloudkms.keyRings.create
 cloudkms.keyRings.createTagBinding
+cloudkms.keyRings.delete
 cloudkms.keyRings.deleteTagBinding
 cloudkms.keyRings.get
 cloudkms.keyRings.getIamPolicy
@@ -7499,9 +7501,7 @@ discoveryengine.cmekConfigs.list
 discoveryengine.cmekConfigs.update
 discoveryengine.collections.delete
 discoveryengine.collections.get
-discoveryengine.collections.getIamPolicy
 discoveryengine.collections.list
-discoveryengine.collections.setIamPolicy
 discoveryengine.completionConfigs.completeQuery
 discoveryengine.completionConfigs.get
 discoveryengine.completionConfigs.removeSuggestion
@@ -7535,10 +7535,8 @@ discoveryengine.dataStores.create
 discoveryengine.dataStores.delete
 discoveryengine.dataStores.enrollSolutions
 discoveryengine.dataStores.get
-discoveryengine.dataStores.getIamPolicy
 discoveryengine.dataStores.list
 discoveryengine.dataStores.listCustomModels
-discoveryengine.dataStores.setIamPolicy
 discoveryengine.dataStores.trainCustomModel
 discoveryengine.dataStores.update
 discoveryengine.devToolsConfigs.get
@@ -7628,7 +7626,6 @@ discoveryengine.notificationMessages.update
 discoveryengine.operations.get
 discoveryengine.operations.list
 discoveryengine.podcasts.create
-discoveryengine.projectOverageConfigs.get
 discoveryengine.projects.get
 discoveryengine.projects.provision
 discoveryengine.projects.reportConsentChange
@@ -8346,7 +8343,6 @@ firebaseappcheck.safetyNetConfig.get
 firebaseappcheck.safetyNetConfig.update
 firebaseappcheck.services.get
 firebaseappcheck.services.update
-firebaseappcheck.tokens.mint
 firebaseappdistro.groups.list
 firebaseappdistro.groups.update
 firebaseappdistro.releases.list
@@ -8443,8 +8439,6 @@ firebasedataconnect.services.create
 firebasedataconnect.services.delete
 firebasedataconnect.services.executeGraphql
 firebasedataconnect.services.executeGraphqlRead
-firebasedataconnect.services.generateQuery
-firebasedataconnect.services.generateSchema
 firebasedataconnect.services.get
 firebasedataconnect.services.introspectGraphql
 firebasedataconnect.services.list
