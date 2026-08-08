@@ -8452,6 +8452,7 @@ firebasedataconnect.schemas.create
 firebasedataconnect.schemas.delete
 firebasedataconnect.schemas.get
 firebasedataconnect.schemas.list
+firebasedataconnect.schemas.migrate
 firebasedataconnect.schemas.update
 firebasedataconnect.services.create
 firebasedataconnect.services.delete
