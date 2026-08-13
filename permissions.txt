@@ -495,6 +495,12 @@ aiplatform.studies.delete
 aiplatform.studies.get
 aiplatform.studies.list
 aiplatform.studies.update
+aiplatform.tasks.cancel
+aiplatform.tasks.create
+aiplatform.tasks.delete
+aiplatform.tasks.get
+aiplatform.tasks.list
+aiplatform.tasks.update
 aiplatform.tensorboardExperiments.create
 aiplatform.tensorboardExperiments.delete
 aiplatform.tensorboardExperiments.get
@@ -6551,6 +6557,10 @@ datalineage.events.list
 datalineage.locations.processOpenLineageMessage
 datalineage.locations.searchLinks
 datalineage.operations.get
+datalineage.processRevisions.delete
+datalineage.processRevisions.get
+datalineage.processRevisions.insert
+datalineage.processRevisions.list
 datalineage.processes.create
 datalineage.processes.delete
 datalineage.processes.get
@@ -11037,6 +11047,10 @@ policysimulator.accessPolicySimulationResults.list
 policysimulator.accessPolicySimulations.create
 policysimulator.accessPolicySimulations.get
 policysimulator.accessPolicySimulations.list
+policysimulator.activityBacktestResults.search
+policysimulator.activityBacktests.evaluateRabPolicy
+policysimulator.activityBacktests.list
+policysimulator.activityBacktests.viewRabPolicy
 policysimulator.orgPolicyViolations.list
 policysimulator.orgPolicyViolationsPreviews.create
 policysimulator.orgPolicyViolationsPreviews.get
@@ -11142,6 +11156,11 @@ prodactuation.operations.cancel
 prodactuation.operations.delete
 prodactuation.operations.get
 prodactuation.operations.list
+prodactuation.uberProxyServices.create
+prodactuation.uberProxyServices.delete
+prodactuation.uberProxyServices.get
+prodactuation.uberProxyServices.list
+prodactuation.uberProxyServices.update
 proximitybeacon.attachments.create
 proximitybeacon.attachments.delete
 proximitybeacon.attachments.get
