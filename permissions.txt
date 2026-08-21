@@ -4646,10 +4646,12 @@ compute.instances.getScreenshot
 compute.instances.getSerialPortOutput
 compute.instances.getShieldedInstanceIdentity
 compute.instances.getShieldedVmIdentity
+compute.instances.getVmExtensionState
 compute.instances.list
 compute.instances.listEffectiveTags
 compute.instances.listReferrers
 compute.instances.listTagBindings
+compute.instances.listVmExtensionStates
 compute.instances.osAdminLogin
 compute.instances.osLogin
 compute.instances.pscInterfaceCreate
@@ -7628,6 +7630,7 @@ discoveryengine.ideaForgeIdeas.create
 discoveryengine.ideaForgeIdeas.get
 discoveryengine.ideaForgeInstances.get
 discoveryengine.ideaForgeInstances.start
+discoveryengine.ideaForgeInstances.stop
 discoveryengine.identityMappingStores.create
 discoveryengine.identityMappingStores.delete
 discoveryengine.identityMappingStores.get
@@ -9317,6 +9320,7 @@ iamconnectors.operations.get
 iamconnectors.operations.list
 iap.projects.getSettings
 iap.projects.updateSettings
+iap.resources.egressViaIAP
 iap.tunnel.getIamPolicy
 iap.tunnel.setIamPolicy
 iap.tunnelDestGroups.accessViaIAP
@@ -11095,10 +11099,6 @@ policysimulator.accessPolicySimulationResults.list
 policysimulator.accessPolicySimulations.create
 policysimulator.accessPolicySimulations.get
 policysimulator.accessPolicySimulations.list
-policysimulator.activityBacktestResults.search
-policysimulator.activityBacktests.evaluateRabPolicy
-policysimulator.activityBacktests.list
-policysimulator.activityBacktests.viewRabPolicy
 policysimulator.orgPolicyViolations.list
 policysimulator.orgPolicyViolationsPreviews.create
 policysimulator.orgPolicyViolationsPreviews.get
@@ -11979,10 +11979,13 @@ rma.operations.delete
 rma.operations.get
 rma.operations.list
 roads.selectedRoutes.batchCreate
+roads.selectedRoutes.batchDelete
+roads.selectedRoutes.batchUpdate
 roads.selectedRoutes.create
 roads.selectedRoutes.delete
 roads.selectedRoutes.get
 roads.selectedRoutes.list
+roads.selectedRoutes.update
 routeoptimization.locations.use
 routeoptimization.operations.create
 routeoptimization.operations.get
@@ -12020,6 +12023,7 @@ run.jobs.sshRead
 run.jobs.sshRoot
 run.jobs.update
 run.locations.list
+run.locations.uploadSource
 run.operations.delete
 run.operations.get
 run.operations.list
