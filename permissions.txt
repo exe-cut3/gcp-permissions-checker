@@ -1240,6 +1240,7 @@ appoptimize.reports.get
 appoptimize.reports.getData
 appoptimize.reports.list
 apptopology.applicationTopologies.generate
+apptopology.devOpsDomainTopologies.generate
 apptopology.discoveredResourcesTopologies.generate
 apptopology.domains.get
 apptopology.domains.list
@@ -1248,6 +1249,8 @@ apptopology.locations.list
 apptopology.operations.get
 apptopology.operations.list
 apptopology.schemas.get
+apptopology.securityDomainTopologies.generate
+apptopology.sreDomainTopologies.generate
 apptopology.topologyViews.get
 apptopology.topologyViews.list
 artifactregistry.aptartifacts.create
@@ -1578,6 +1581,7 @@ backupdr.operations.cancel
 backupdr.operations.delete
 backupdr.operations.get
 backupdr.operations.list
+backupdr.resourceBackupConfigs.fetch
 backupdr.resourceBackupConfigs.get
 backupdr.resourceBackupConfigs.list
 backupdr.serviceConfig.initialize
