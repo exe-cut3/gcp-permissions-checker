@@ -2872,6 +2872,11 @@ chronicle.tagSubscriptions.delete
 chronicle.tagSubscriptions.get
 chronicle.tagSubscriptions.list
 chronicle.tagSubscriptions.update
+chronicle.tags.create
+chronicle.tags.delete
+chronicle.tags.get
+chronicle.tags.list
+chronicle.tags.update
 chronicle.tasks.delete
 chronicle.tasks.get
 chronicle.tasks.update
