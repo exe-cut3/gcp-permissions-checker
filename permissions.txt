@@ -12487,6 +12487,9 @@ servicedirectory.services.list
 servicedirectory.services.resolve
 servicedirectory.services.setIamPolicy
 servicedirectory.services.update
+serviceextensions.callouts.invoke
+serviceextensions.locations.get
+serviceextensions.locations.list
 servicehealth.artifacts.get
 servicehealth.artifacts.list
 servicehealth.events.get
