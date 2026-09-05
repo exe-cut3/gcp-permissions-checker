@@ -1442,6 +1442,18 @@ autoscaling.sites.writeMetrics
 autoscaling.sites.writeState
 axt.labels.get
 axt.labels.set
+backupdr.appliedAutoProtectionPolicies.authorize
+backupdr.appliedAutoProtectionPolicies.list
+backupdr.appliedAutoProtectionPolicies.viewMatchingResources
+backupdr.autoProtectionBindings.create
+backupdr.autoProtectionBindings.delete
+backupdr.autoProtectionBindings.get
+backupdr.autoProtectionBindings.list
+backupdr.autoProtectionPolicies.create
+backupdr.autoProtectionPolicies.delete
+backupdr.autoProtectionPolicies.get
+backupdr.autoProtectionPolicies.list
+backupdr.autoProtectionPolicies.update
 backupdr.backupPlanAssociations.create
 backupdr.backupPlanAssociations.createForAlloydbCluster
 backupdr.backupPlanAssociations.createForCloudSqlInstance
@@ -1499,6 +1511,7 @@ backupdr.backupVaults.list
 backupdr.backupVaults.listEffectiveTags
 backupdr.backupVaults.listTagBindings
 backupdr.backupVaults.update
+backupdr.bindingMatchingResources.list
 backupdr.bvbackups.delete
 backupdr.bvbackups.fetchForCloudSqlInstance
 backupdr.bvbackups.fetchForComputeDisk
@@ -4785,6 +4798,8 @@ compute.machineImages.setLabels
 compute.machineImages.useReadOnly
 compute.machineTypes.get
 compute.machineTypes.list
+compute.managedRulesets.get
+compute.managedRulesets.list
 compute.multiMig.create
 compute.multiMig.delete
 compute.multiMig.get
