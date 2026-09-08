@@ -5107,6 +5107,8 @@ compute.regionUrlMaps.use
 compute.regionUrlMaps.validate
 compute.regions.get
 compute.regions.list
+compute.reliabilityRisks.get
+compute.reliabilityRisks.list
 compute.reservationBlocks.get
 compute.reservationBlocks.list
 compute.reservationBlocks.performMaintenance
@@ -11359,6 +11361,8 @@ recaptchaenterprise.keys.listTagBindings
 recaptchaenterprise.keys.retrievelegacysecretkey
 recaptchaenterprise.keys.update
 recaptchaenterprise.metrics.get
+recaptchaenterprise.policies.get
+recaptchaenterprise.policies.update
 recaptchaenterprise.projectmetadata.get
 recaptchaenterprise.projectmetadata.update
 recaptchaenterprise.relatedaccountgroupmemberships.list
@@ -11871,10 +11875,16 @@ remotebuildexecution.workerpools.delete
 remotebuildexecution.workerpools.get
 remotebuildexecution.workerpools.list
 remotebuildexecution.workerpools.update
+resourcemanager.capabilityConfigs.create
+resourcemanager.capabilityConfigs.delete
+resourcemanager.capabilityConfigs.get
+resourcemanager.capabilityConfigs.list
+resourcemanager.capabilityConfigs.update
 resourcemanager.hierarchyNodes.createTagBinding
 resourcemanager.hierarchyNodes.deleteTagBinding
 resourcemanager.hierarchyNodes.listEffectiveTags
 resourcemanager.hierarchyNodes.listTagBindings
+resourcemanager.projects.associateToCapabilityConfig
 resourcemanager.projects.createBillingAssignment
 resourcemanager.projects.createPolicyBinding
 resourcemanager.projects.delete
