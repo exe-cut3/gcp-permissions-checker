@@ -94,7 +94,15 @@ jobs:
           COMMIT_MSG=$(cat commit_msg.txt)
           
           if [ -z "$COMMIT_MSG" ] || [ "$COMMIT_MSG" = "No changes detected." ]; then
-            echo "No changes to permissions.txt. Skipping commit."
+            echo "No changes to permissions.txt. Recording a heartbeat instead."
+            # GitHub disables scheduled workflows after 60 days without repository
+            # activity, so a quiet stretch at Google must not be able to stop collection.
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            date -u +%Y-%m-%dT%H:%M:%SZ > last_run.txt
+            git add last_run.txt
+            git commit -m "chore: collector heartbeat $(date -u +%F)"
+            git push
             exit 0
           fi
           
