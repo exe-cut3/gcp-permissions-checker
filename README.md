@@ -38,3 +38,8 @@ The repository uses GitHub Actions (`.github/workflows/update-permissions.yml`) 
 python3 get_permissions.py --out permissions.txt
 ```
 *Requires `roles/iam.roleViewer`.*
+
+Alongside `permissions.txt` this writes `permissions_metadata.jsonl`: one JSON object per
+permission with its title, description, launch stage (ALPHA/BETA/GA/DEPRECATED) and
+custom-role support level. One object per line, so a stage promotion shows up in
+`git log -p` as a single changed line. Use `--metadata-out` to change the path.

@@ -1,7 +1,9 @@
 import argparse
+import json
 import logging
 import os
 import sys
+from collections import Counter
 from googleapiclient import discovery
 from google.oauth2 import service_account
 from google.auth.transport.requests import Request
@@ -45,7 +47,43 @@ def get_project_id(credentials, project_arg=None):
     logging.error("Could not determine Project ID. Please provide --project.")
     sys.exit(1)
 
-def fetch_permissions(credentials, project_id, output_file):
+# apiDisabled is deliberately not kept: it reports whether the API is enabled in
+# the collector's own project rather than anything about Google's catalog, so it
+# would flip whenever that project changes and show up as spurious churn.
+METADATA_FIELDS = ("title", "description", "stage", "customRolesSupportLevel", "primaryPermission")
+
+# Proto3 JSON omits enum fields holding their zero value, which is the first value
+# of each enum in the IAM discovery document. A missing stage therefore means ALPHA.
+ENUM_DEFAULTS = {"stage": "ALPHA", "customRolesSupportLevel": "SUPPORTED"}
+
+
+def to_record(permission):
+    record = {"name": permission["name"]}
+    for field in METADATA_FIELDS:
+        value = permission.get(field, ENUM_DEFAULTS.get(field))
+        if value not in (None, ""):
+            record[field] = value
+    return record
+
+
+def _atomic_write(path, text):
+    tmp = path + ".tmp"
+    with open(tmp, 'w', encoding='utf-8') as f:
+        f.write(text)
+    os.replace(tmp, path)
+
+
+def write_outputs(records, output_file, metadata_file):
+    names = sorted(records)
+    # One object per line keeps each daily diff down to the permissions whose
+    # metadata actually changed, e.g. a single line for a BETA -> GA promotion.
+    _atomic_write(metadata_file, "".join(
+        json.dumps(records[name], ensure_ascii=False, separators=(",", ":")) + "\n" for name in names
+    ))
+    _atomic_write(output_file, "".join(name + "\n" for name in names))
+
+
+def fetch_permissions(credentials, project_id, output_file, metadata_file):
     """
     Fetch all testable permissions from the project using IAM API.
     """
@@ -64,7 +102,7 @@ def fetch_permissions(credentials, project_id, output_file):
         
         request = service.permissions().queryTestablePermissions(body=body)
         
-        all_permissions = set()
+        records = {}
         page_count = 0
         
         while request is not None:
@@ -72,23 +110,20 @@ def fetch_permissions(credentials, project_id, output_file):
             perms = response.get('permissions', [])
             
             for p in perms:
-                all_permissions.add(p['name'])
+                records[p['name']] = to_record(p)
             
             page_count += 1
             if page_count % 5 == 0:
-                logging.info(f"Fetched {len(all_permissions)} permissions so far...")
+                logging.info(f"Fetched {len(records)} permissions so far...")
                 
             request = service.permissions().queryTestablePermissions_next(previous_request=request, previous_response=response)
 
-        logging.info(f"Successfully retrieved {len(all_permissions)} unique permissions.")
+        logging.info(f"Successfully retrieved {len(records)} unique permissions.")
+        logging.info(f"Launch stages: {dict(Counter(r.get('stage') for r in records.values()))}")
         
-        tmp_file = output_file + ".tmp"
-        with open(tmp_file, 'w', encoding='utf-8') as f:
-            for p in sorted(all_permissions):
-                f.write(p + "\n")
-        os.replace(tmp_file, output_file)
+        write_outputs(records, output_file, metadata_file)
 
-        logging.info(f"Saved permissions to {output_file}")
+        logging.info(f"Saved permissions to {output_file} and {metadata_file}")
         
     except Exception as e:
         logging.error(f"Failed to fetch permissions: {e}")
@@ -101,6 +136,8 @@ def main():
     parser.add_argument('--service-account', help="Path to service account JSON key file.")
     parser.add_argument('--project', help="GCP Project ID (optional if in key).")
     parser.add_argument('--out', default='permissions.txt', help="Output file path (default: permissions.txt).")
+    parser.add_argument('--metadata-out', default='permissions_metadata.jsonl',
+                        help="Per-permission title, description and launch stage (default: permissions_metadata.jsonl).")
     
     args = parser.parse_args()
     
@@ -108,7 +145,7 @@ def main():
     project_id = get_project_id(creds, args.project)
     
     logging.info(f"Target Project: {project_id}")
-    fetch_permissions(creds, project_id, args.out)
+    fetch_permissions(creds, project_id, args.out, args.metadata_out)
 
 if __name__ == "__main__":
     main()

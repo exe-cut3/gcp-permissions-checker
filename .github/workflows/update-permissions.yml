@@ -103,7 +103,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          git add permissions.txt
+          git add permissions.txt permissions_metadata.jsonl
           git commit -m "$COMMIT_MSG"
           git push
 
