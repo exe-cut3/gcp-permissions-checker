@@ -14,13 +14,18 @@ def get_credentials(entry):
     """
     Get credentials from a file path or use default credentials.
     """
-    if entry and os.path.exists(entry):
+    if entry:
+        if not os.path.exists(entry):
+            # Falling back to ADC here would silently query a different identity,
+            # yielding a short list that looks like a legitimate permission removal.
+            logging.error(f"Service account key not found: {entry}")
+            sys.exit(1)
         logging.info(f"Using service account key: {entry}")
         return service_account.Credentials.from_service_account_file(entry)
-    else:
-        logging.info("Using Application Default Credentials")
-        creds, project = google.auth.default()
-        return creds
+
+    logging.info("Using Application Default Credentials")
+    creds, project = google.auth.default()
+    return creds
 
 def get_project_id(credentials, project_arg=None):
     """
@@ -77,10 +82,12 @@ def fetch_permissions(credentials, project_id, output_file):
 
         logging.info(f"Successfully retrieved {len(all_permissions)} unique permissions.")
         
-        with open(output_file, 'w') as f:
+        tmp_file = output_file + ".tmp"
+        with open(tmp_file, 'w', encoding='utf-8') as f:
             for p in sorted(all_permissions):
                 f.write(p + "\n")
-                
+        os.replace(tmp_file, output_file)
+
         logging.info(f"Saved permissions to {output_file}")
         
     except Exception as e:

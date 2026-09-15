@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 23 * * *' # Run daily at 23:00 UTC (1 hour before Watchdog)
   workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: 'Commit even if the list shrinks past the safety floor (use when Google genuinely removed many permissions)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,14 +44,38 @@ jobs:
           python3 get_permissions.py --service-account key_action.json --out permissions.txt
 
       - name: Check permissions file
+        env:
+          ALLOW_SHRINK: ${{ inputs.allow_shrink }}
+          MIN_RETAINED_PCT: '97'
         run: |
-          if [ -s permissions.txt ]; then
-            echo "Permissions file generated successfully."
-            head -n 5 permissions.txt
-          else
-            echo "Error: permissions.txt is empty."
+          set -euo pipefail
+
+          if [ ! -s permissions.txt ]; then
+            echo "::error::permissions.txt is empty."
             exit 1
           fi
+
+          NEW=$(wc -l < permissions.txt)
+          OLD=$(git show HEAD:permissions.txt 2>/dev/null | wc -l || echo 0)
+          echo "Previous: $OLD lines. New: $NEW lines."
+          head -n 5 permissions.txt
+
+          if [ "$OLD" -eq 0 ]; then
+            echo "No committed list to compare against; skipping shrink check."
+            exit 0
+          fi
+
+          FLOOR=$(( OLD * MIN_RETAINED_PCT / 100 ))
+          if [ "$NEW" -lt "$FLOOR" ]; then
+            if [ "$ALLOW_SHRINK" = "true" ]; then
+              echo "::warning::List shrank from $OLD to $NEW lines (floor $FLOOR). Overridden via allow_shrink."
+              exit 0
+            fi
+            echo "::error::permissions.txt shrank from $OLD to $NEW lines, below the ${MIN_RETAINED_PCT}% floor of $FLOOR. This usually means the API returned a partial result or the service account lost roles/iam.roleViewer. Refusing to overwrite the master list. If Google genuinely removed these, re-run this workflow manually with allow_shrink enabled."
+            exit 1
+          fi
+
+          echo "Permissions file generated successfully."
 
       - name: Clean up credentials
         if: always()
