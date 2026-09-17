@@ -4117,6 +4117,11 @@
 {"name":"cloudsql.users.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.users.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.users.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.workloadCaptures.list","title":"List captured workloads for the Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.workloadCaptures.start","title":"Start a workload capture on the Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.workloadCaptures.startReplay","title":"Start replaying a captured workload on a shadow Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.workloadCaptures.stop","title":"Stop the active workload capture on the Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.workloadCaptures.stopReplay","title":"Stop replaying a captured workload on a shadow Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsupport.properties.get","title":"View support properties","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsupport.techCases.create","title":"Create Tech Support Cases","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsupport.techCases.escalate","title":"Escalate Tech Support Cases","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11577,6 +11582,14 @@
 {"name":"recommender.computeFirewallInsights.get","title":"Get Insight for the Firewall Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"recommender.computeFirewallInsights.list","title":"List Insights for the Firewall Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"recommender.computeFirewallInsights.update","title":"Update Insight State for the Firewall Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceInsights.get","title":"Get Insight for the Compute IdleResource Insight Type.","description":"Get Insight for the Compute IdleResource Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceInsights.list","title":"List Insights for the Compute IdleResource Insight Type.","description":"List Insights for the Compute IdleResource Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceInsights.update","title":"Update Insight State for the Compute IdleResource Insight Type.","description":"Update Insight State for the Compute IdleResource Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceRecommendations.get","title":"Get Recommendations for the Compute IdleResource Recommender.","description":"Get Recommendations for the Compute IdleResource Recommender.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceRecommendations.list","title":"List Recommendations for the Compute IdleResource Recommender.","description":"List Recommendations for the Compute IdleResource Recommender.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceRecommendations.update","title":"Update Recommendations State for the Compute IdleResource Recommender.","description":"Update Recommendations State for the Compute IdleResource Recommender.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceRecommenderConfig.get","title":"Get RecommenderConfig for the GCE Idle Resource Recommender.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"recommender.computeIdleResourceRecommenderConfig.update","title":"Update RecommenderConfig State for the GCE Idle Resource Recommender.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"recommender.computeImageIdleResourceInsights.get","title":"Get Insight for the Image Idle Resource Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"recommender.computeImageIdleResourceInsights.list","title":"List Insights for the Image Idle Resource Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"recommender.computeImageIdleResourceInsights.update","title":"Update Insight State for the Image Idle Resource Insight Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}

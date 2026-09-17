@@ -4117,6 +4117,11 @@ cloudsql.users.delete
 cloudsql.users.get
 cloudsql.users.list
 cloudsql.users.update
+cloudsql.workloadCaptures.list
+cloudsql.workloadCaptures.start
+cloudsql.workloadCaptures.startReplay
+cloudsql.workloadCaptures.stop
+cloudsql.workloadCaptures.stopReplay
 cloudsupport.properties.get
 cloudsupport.techCases.create
 cloudsupport.techCases.escalate
@@ -11577,6 +11582,14 @@ recommender.computeFirewallInsightTypeConfigs.update
 recommender.computeFirewallInsights.get
 recommender.computeFirewallInsights.list
 recommender.computeFirewallInsights.update
+recommender.computeIdleResourceInsights.get
+recommender.computeIdleResourceInsights.list
+recommender.computeIdleResourceInsights.update
+recommender.computeIdleResourceRecommendations.get
+recommender.computeIdleResourceRecommendations.list
+recommender.computeIdleResourceRecommendations.update
+recommender.computeIdleResourceRecommenderConfig.get
+recommender.computeIdleResourceRecommenderConfig.update
 recommender.computeImageIdleResourceInsights.get
 recommender.computeImageIdleResourceInsights.list
 recommender.computeImageIdleResourceInsights.update
