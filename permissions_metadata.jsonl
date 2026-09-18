@@ -5436,20 +5436,28 @@
 {"name":"config.deploymentgrouprevisions.get","title":"Get Deployment Group Revision","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgrouprevisions.list","title":"List Deployment Group Revisions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.create","title":"Create Deployment Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deploymentgroups.createTagBinding","title":"Create Tag Binding on deploymentGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.delete","title":"Delete Deployment Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deploymentgroups.deleteTagBinding","title":"Delete Tag Binding on deploymentGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.deprovision","title":"Deprovision Deployment Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.get","title":"Get Deployment Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.list","title":"List Deployment Groups","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deploymentgroups.listEffectiveTags","title":"List Effective Tags on deploymentGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deploymentgroups.listTagBindings","title":"List Tag Bindings on deploymentGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.provision","title":"Provision Deployment Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deploymentgroups.update","title":"Update Deployment Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.create","title":"Create Deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deployments.createTagBinding","title":"Create Tag Binding on deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.delete","title":"Delete Deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.deleteState","title":"Delete State","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deployments.deleteTagBinding","title":"Delete Tag Binding on deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.get","title":"Get Deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.getIamPolicy","title":"Get IAM Policy on Deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.getLock","title":"Get Lock Info","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.getState","title":"Export State","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.list","title":"List Deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deployments.listEffectiveTags","title":"List Effective Tags on deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.deployments.listTagBindings","title":"List Tag Bindings on deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.lock","title":"Lock State","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.setIamPolicy","title":"Set IAM Policy on Deployment","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.deployments.unlock","title":"Unlock State","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5462,10 +5470,14 @@
 {"name":"config.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.previews.create","title":"Create Preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.previews.createTagBinding","title":"Create Tag Binding on preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.previews.delete","title":"Delete Preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.previews.deleteTagBinding","title":"Delete Tag Binding on preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.previews.export","title":"Export Preview results","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.previews.get","title":"Get Preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.previews.list","title":"List Previews","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.previews.listEffectiveTags","title":"List Effective Tags on preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"config.previews.listTagBindings","title":"List Tag Bindings on preview","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.previews.upload","title":"Upload Preview results","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.resourcechanges.get","title":"Get Resource Change","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"config.resourcechanges.list","title":"List Resource Changes","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
