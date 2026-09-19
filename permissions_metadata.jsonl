@@ -436,6 +436,7 @@
 {"name":"aiplatform.provisionedThroughputRevisions.get","title":"Get provisioned throughput revision","description":"Get provisioned throughput revision","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.provisionedThroughputRevisions.list","title":"List provisioned throughput revisions under an order","description":"List provisioned throughput revisions under an order","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.provisionedThroughputs.cancel","title":"Cancel provisioned throughput","description":"Cancel provisioned throughput","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.provisionedThroughputs.changeScope","title":"Change scope of provisioned throughput order","description":"Change scope of provisioned throughput order","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.provisionedThroughputs.create","title":"Create provisioned throughput orders","description":"Create provisioned throughput orders","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.provisionedThroughputs.get","title":"Get provisioned throughput order","description":"Get provisioned throughput order","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.provisionedThroughputs.list","title":"List provisioned throughput under a project","description":"List provisioned throughput under a project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -13106,6 +13107,12 @@
 {"name":"translationhub.portals.get","title":"Get portal","description":"Get portal","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"translationhub.portals.list","title":"List portals","description":"List portals","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"translationhub.portals.update","title":"Update portal","description":"Update portal","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"universalledger.endpoints.get","title":"Get endpoint metadata","description":"Get endpoint metadata","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"universalledger.endpoints.list","title":"List endpoints","description":"List endpoints","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"universalledger.endpoints.readNetwork","title":"Read from network via endpoint","description":"Read data from the network via an endpoint","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"universalledger.endpoints.submit","title":"Submit transaction to network via endpoint","description":"Submit a transaction to the network via an endpoint","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"universalledger.locations.get","title":"Get location","description":"Get details of a location","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"universalledger.locations.list","title":"List locations","description":"List locations endpoints can be created in","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vectorsearch.collections.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vectorsearch.collections.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vectorsearch.collections.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}

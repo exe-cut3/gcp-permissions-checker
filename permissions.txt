@@ -436,6 +436,7 @@ aiplatform.pipelineJobs.list
 aiplatform.provisionedThroughputRevisions.get
 aiplatform.provisionedThroughputRevisions.list
 aiplatform.provisionedThroughputs.cancel
+aiplatform.provisionedThroughputs.changeScope
 aiplatform.provisionedThroughputs.create
 aiplatform.provisionedThroughputs.get
 aiplatform.provisionedThroughputs.list
@@ -13106,6 +13107,12 @@ translationhub.portals.delete
 translationhub.portals.get
 translationhub.portals.list
 translationhub.portals.update
+universalledger.endpoints.get
+universalledger.endpoints.list
+universalledger.endpoints.readNetwork
+universalledger.endpoints.submit
+universalledger.locations.get
+universalledger.locations.list
 vectorsearch.collections.create
 vectorsearch.collections.delete
 vectorsearch.collections.get
