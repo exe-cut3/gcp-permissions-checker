@@ -71,8 +71,10 @@
 {"name":"agentregistry.skills.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skills.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skills.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skills.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skills.search","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skills.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentAnomalyDetectionScopes.create","title":"Create AgentAnomalyDetectionScope","description":"Create AgentAnomalyDetectionScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentAnomalyDetectionScopes.delete","title":"Delete AgentAnomalyDetectionScope","description":"Delete AgentAnomalyDetectionScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -327,11 +329,11 @@
 {"name":"aiplatform.indexes.get","title":"Get indexes","description":"Get indexes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.indexes.list","title":"List indexes under a project","description":"List indexes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.indexes.update","title":"Update indexes","description":"Update indexes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"aiplatform.interactions.cancel","title":"Cancel interactions","description":"Cancel interactions","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"aiplatform.interactions.create","title":"Create interactions","description":"Create interactions","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"aiplatform.interactions.delete","title":"Delete interactions","description":"Delete interactions","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"aiplatform.interactions.get","title":"Get interactions","description":"Get interactions","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"aiplatform.interactions.list","title":"List interactions","description":"List interactions","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.interactions.cancel","title":"Cancel interactions","description":"Cancel interactions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.interactions.create","title":"Create interactions","description":"Create interactions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.interactions.delete","title":"Delete interactions","description":"Delete interactions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.interactions.get","title":"Get interactions","description":"Get interactions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.interactions.list","title":"List interactions","description":"List interactions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.locations.evaluateInstances","title":"Evaluate instances","description":"Evaluate instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.locations.get","title":"Get locations","description":"Get locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.locations.list","title":"List locations","description":"List locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -387,6 +389,7 @@
 {"name":"aiplatform.models.list","title":"List models under a project","description":"List models under a project","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.models.update","title":"Update models","description":"Update models","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.models.upload","title":"Upload model artifacts","description":"Upload model artifacts","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.monitoredAgents.clearTrainingData","title":"Clear MonitoredAgent Training Data","description":"Clear the trained model artifacts for a MonitoredAgent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.monitoredAgents.disable","title":"Disable MonitoredAgent","description":"Disable MonitoredAgent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.monitoredAgents.enable","title":"Enable MonitoredAgent","description":"Enable MonitoredAgent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.monitoredAgents.get","title":"Get MonitoredAgent","description":"Get MonitoredAgent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -3048,6 +3051,12 @@
 {"name":"cloudaicompanion.settingBindings.geminiGcpEnablementSettingsList","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUpdate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUse","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.settingBindings.gibqObservabilitySettingsCreate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.settingBindings.gibqObservabilitySettingsDelete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.settingBindings.gibqObservabilitySettingsGet","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.settingBindings.gibqObservabilitySettingsList","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.settingBindings.gibqObservabilitySettingsUpdate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.settingBindings.gibqObservabilitySettingsUse","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.settingBindings.loggingSettingsCreate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.settingBindings.loggingSettingsDelete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.settingBindings.loggingSettingsGet","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5069,10 +5078,12 @@
 {"name":"compute.regionSslPolicies.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.regionSslPolicies.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.listAvailableFeatures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.regionSslPolicies.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionTargetHttpProxies.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5126,6 +5137,7 @@
 {"name":"compute.reservationBlocks.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.reservationBlocks.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.reservationBlocks.performMaintenance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.reservationConsumedInstances.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.reservationSlots.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.reservationSlots.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.reservationSlots.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -5246,10 +5258,12 @@
 {"name":"compute.sslPolicies.delete","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.sslPolicies.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.get","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"compute.sslPolicies.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.list","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.sslPolicies.listAvailableFeatures","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.sslPolicies.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.sslPolicies.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.update","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.sslPolicies.use","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.storagePools.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7386,6 +7400,8 @@
 {"name":"devicerun.sessions.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicerun.sessions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicerun.sessions.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"devicerun.softwareVersions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"devicerun.softwareVersions.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicestreaming.deviceSessions.cancel","title":"Cancel a device session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicestreaming.deviceSessions.create","title":"Create a device session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicestreaming.deviceSessions.get","title":"Get a device session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7736,6 +7752,7 @@
 {"name":"discoveryengine.licenseConfigs.get","title":"Get license config","description":"Get a license config","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.licenseConfigs.list","title":"List license configs","description":"List license configs","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.licenseConfigs.update","title":"Update license config","description":"Update a license config","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.locations.buildAuthorizationUrl","title":"Build authorization URL","description":"Build authorization URL","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.locations.completeExternalIdentities","title":"Complete External Identities","description":"Complete External Identities from an external identity provider with a prefix query string.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.locations.estimateDataSize","title":"Estimate data size for billing","description":"Estimate data size to be used by a costumer.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.locations.exchangeAuthCredentials","title":"Exchange auth credentials with an OAuth endpoint","description":"Exchange auth credentials with an OAuth endpoint","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
