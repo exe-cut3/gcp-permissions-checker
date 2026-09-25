@@ -2997,6 +2997,11 @@
 {"name":"cloudaicompanion.geminiGcpEnablementSettings.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.geminiGcpEnablementSettings.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.geminiGcpEnablementSettings.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.gibqObservabilitySettings.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.gibqObservabilitySettings.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.gibqObservabilitySettings.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.gibqObservabilitySettings.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudaicompanion.gibqObservabilitySettings.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.instances.completeCode","title":"Code Completion","description":"Code Completion","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.instances.completeTask","title":"Task Completion","description":"Task Completion","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudaicompanion.instances.exportMetrics","title":"Record Metric Telemetry","description":"Access to the Export (Metrics) API in order to record metric telemetry related to the use of the Gemini for Google Cloud Instance.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4790,6 +4795,7 @@
 {"name":"compute.interconnects.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.interconnects.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.interconnects.setLabels","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"compute.interconnects.setName","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.interconnects.update","stage":"GA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.interconnects.use","stage":"GA","customRolesSupportLevel":"TESTING"}
 {"name":"compute.licenseCodes.get","stage":"GA","customRolesSupportLevel":"TESTING"}
@@ -6880,6 +6886,7 @@
 {"name":"dataplex.entryGroups.useGenericAspect","title":"Use Generic Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGenericEntry","title":"Use Generic Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGraphProfileAspect","title":"Use Graph Profile Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useManagedConnectorTypes","title":"Ability to add entries/context from any of the GCP managed connectors.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useMySQLConnectorTypes","title":"Use MySQL Entry and Aspect Types.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useOracleConnectorTypes","title":"Use Oracle Entry and Aspect Types.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useOverviewAspect","title":"Use Overview Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6896,6 +6903,14 @@
 {"name":"dataplex.entryGroups.useSecondaryIndexesAspect","title":"Use Secondary Indexes Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useStorageAspect","title":"Use Storage Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useSynonymEntryLink","title":"Use Synonym Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.create","title":"Create an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.delete","title":"Delete an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.get","title":"Read an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.getIamPolicy","title":"Get IAM Policy on EntryLinkType","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.list","title":"List Entry Link Types","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.setIamPolicy","title":"Set IAM Policy on EntryLinkType","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.update","title":"Update an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryLinkTypes.use","title":"Use an Entry Link Type for creating entry links","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinks.create","title":"Create an Entry Link","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinks.delete","title":"Delete an Entry Link","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinks.get","title":"Read an Entry Link","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8236,6 +8251,10 @@
 {"name":"enterprisepurchasing.gcveCuds.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"enterprisepurchasing.gcveCuds.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"enterprisepurchasing.gcveNodePricingInfo.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"enterprisepurchasing.licenseKeys.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"enterprisepurchasing.licenseKeys.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"enterprisepurchasing.licenseKeys.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"enterprisepurchasing.licenseKeys.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"enterprisepurchasing.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"enterprisepurchasing.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"enterprisepurchasing.operations.cancel","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -13046,14 +13065,6 @@
 {"name":"threatintelligence.configurations.update","title":"Update existing Configurations","description":"Update existing Configurations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"threatintelligence.findings.get","title":"Get Findings","description":"Get Findings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"threatintelligence.findings.list","title":"List all Findings","description":"List all Findings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.datasets.create","title":"Create","description":"Create a DataSet","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.datasets.delete","title":"Delete","description":"Delete a DataSet","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.datasets.evaluate","title":"Evaluate","description":"Evaluate one slice","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.datasets.list","title":"List","description":"List DataSets","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.datasets.query","title":"Query","description":"Query from a DataSet","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.datasets.update","title":"Append","description":"Append events to the DataSet","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"timeseriesinsights.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"tpu.acceleratortypes.get","title":"Get acceleratorTypes","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"tpu.acceleratortypes.list","title":"List acceleratorTypes","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"tpu.locations.get","title":"Get Location","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
