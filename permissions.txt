@@ -7763,6 +7763,13 @@ discoveryengine.identityMappingStores.importIdentityMappings
 discoveryengine.identityMappingStores.list
 discoveryengine.identityMappingStores.listIdentityMappings
 discoveryengine.identityMappingStores.purgeIdentityMappings
+discoveryengine.immersiveArtifacts.create
+discoveryengine.immersiveArtifacts.delete
+discoveryengine.immersiveArtifacts.export
+discoveryengine.immersiveArtifacts.get
+discoveryengine.immersiveArtifacts.list
+discoveryengine.immersiveArtifacts.navigate
+discoveryengine.immersiveArtifacts.update
 discoveryengine.licenseConfigs.create
 discoveryengine.licenseConfigs.get
 discoveryengine.licenseConfigs.list
@@ -7907,6 +7914,12 @@ dlp.connections.get
 dlp.connections.list
 dlp.connections.search
 dlp.connections.update
+dlp.contentPolicies.apply
+dlp.contentPolicies.create
+dlp.contentPolicies.delete
+dlp.contentPolicies.get
+dlp.contentPolicies.list
+dlp.contentPolicies.update
 dlp.deidentifyTemplates.create
 dlp.deidentifyTemplates.delete
 dlp.deidentifyTemplates.get

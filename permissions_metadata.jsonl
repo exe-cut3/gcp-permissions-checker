@@ -7763,6 +7763,13 @@
 {"name":"discoveryengine.identityMappingStores.list","title":"List identityMappingStores","description":"List identityMappingStores for a given project and location","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.identityMappingStores.listIdentityMappings","title":"List identity mappings","description":"List identity mappings in an identityMappingStore","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.identityMappingStores.purgeIdentityMappings","title":"Purge identity mappings","description":"Purge identity mappings in an identityMappingStore","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.create","title":"Create immersiveArtifact","description":"Create an immersiveArtifact","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.delete","title":"Delete immersiveArtifact","description":"Delete an immersiveArtifact","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.export","title":"Export immersiveArtifact","description":"Export an immersiveArtifact","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.get","title":"Get immersiveArtifact","description":"Get an immersiveArtifact","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.list","title":"List immersiveArtifacts","description":"List immersiveArtifacts","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.navigate","title":"Navigate immersiveArtifact","description":"Navigate an immersiveArtifact to the previous or next version.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"discoveryengine.immersiveArtifacts.update","title":"Update immersiveArtifact","description":"Update an immersiveArtifact","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.licenseConfigs.create","title":"Create license config","description":"Create a license config","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.licenseConfigs.get","title":"Get license config","description":"Get a license config","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"discoveryengine.licenseConfigs.list","title":"List license configs","description":"List license configs","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7907,6 +7914,12 @@
 {"name":"dlp.connections.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dlp.connections.search","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dlp.connections.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dlp.contentPolicies.apply","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dlp.contentPolicies.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dlp.contentPolicies.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dlp.contentPolicies.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dlp.contentPolicies.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dlp.contentPolicies.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dlp.deidentifyTemplates.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dlp.deidentifyTemplates.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dlp.deidentifyTemplates.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
