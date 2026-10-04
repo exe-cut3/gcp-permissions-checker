@@ -4703,6 +4703,7 @@
 {"name":"compute.instances.listVmExtensionStates","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.instances.osAdminLogin","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.instances.osLogin","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.instances.performMaintenance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.instances.pscInterfaceCreate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.instances.removeResourcePolicies","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.instances.reset","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6883,6 +6884,8 @@
 {"name":"dataplex.entryGroups.useDatabaseDataPolicyAspect","title":"Use Database Data Policy Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useDefinitionEntryLink","title":"Use Definition Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useDescriptionsAspect","title":"Use Descriptions Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useDocumentAspect","title":"Use Document Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useDocumentEntry","title":"Use Document Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGenericAspect","title":"Use Generic Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGenericEntry","title":"Use Generic Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGraphProfileAspect","title":"Use Graph Profile Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6892,6 +6895,7 @@
 {"name":"dataplex.entryGroups.useOverviewAspect","title":"Use Overview Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.usePostgreSQLConnectorTypes","title":"Use PostgreSQL Entry and Aspect Types.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useQueriesAspect","title":"Use Queries Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useReferenceEntryLink","title":"Use Reference Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useRefreshCadenceAspect","title":"Use Refresh Cadence Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useRelatedEntryLink","title":"Use Related Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useSQLAccessAspect","title":"Use SQL Access Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -13682,6 +13686,8 @@
 {"name":"workloadmanager.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workloadmanager.results.list","title":"List Result","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workloadmanager.rules.list","title":"List Rule","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workloadmanager.workloads.get","title":"Get Workload","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workloadmanager.workloads.list","title":"List Workloads","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workspacemarketplace.appConfiguration.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workspacemarketplace.appConfiguration.view","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workstations.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
