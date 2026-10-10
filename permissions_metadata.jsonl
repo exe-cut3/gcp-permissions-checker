@@ -5416,6 +5416,8 @@
 {"name":"compute.vmExtensionPolicies.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.vmExtensionPolicies.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.vmExtensionPolicies.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.vmExtensions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.vmExtensions.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.vpnGateways.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.vpnGateways.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.vpnGateways.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6321,26 +6323,72 @@
 {"name":"databasecenter.userTags.list","title":"List user tags associated with database resources","description":"List user tags associated with database resources","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.activeQueries.fetch","title":"Active Queries","description":"Active Queries","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.activeQuery.terminate","title":"Terminate Active Queries","description":"Terminates the active query running in the database","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.activeSessionHistory.query","title":"Query Active Session History","description":"Query Active Session History","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.activitySummary.fetch","title":"Activity Summary","description":"Activity Summary","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.agentPolicies.createAgentPolicy","title":"Create VDBA Agent Policy","description":"Create VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.agentPolicies.deleteAgentPolicy","title":"Delete VDBA Agent Policy","description":"Delete VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.agentPolicies.getAgentPolicy","title":"Get VDBA Agent Policy","description":"Get VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.agentPolicies.updateAgentPolicy","title":"Update VDBA Agent Policy","description":"Update VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.aggregatedEvents.query","title":"Aggregated Events","description":"Aggregated Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.aggregatedStats.query","title":"Query Aggregated Stats","description":"Query Aggregated Stats","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.clusterEvents.query","title":"Cluster Events","description":"Cluster Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.databaseIssues.troubleshoot","title":"Troubleshoot Database Issues","description":"Detect, troubleshoot database issues and generate recommendations for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.dbCenter.query","title":"Query Database Center Pathway","description":"Query Database Center Pathway.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.dbPerformance.query","title":"Query Database Performance Pathway","description":"Query Database Performance Pathway.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.genUiAgent.deleteBlueprint","title":"Delete Blueprint","description":"Delete Blueprint for Gen UI Agent.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.genUiAgent.getBlueprint","title":"Get Blueprint","description":"Get Blueprint for Gen UI Agent.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.genUiAgent.listBlueprints","title":"List Blueprints","description":"List Blueprints for Gen UI Agent.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.genUiAgent.query","title":"Run Gen UI Agent","description":"Run Gen UI Agent for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.genUiAgent.saveBlueprint","title":"Save Blueprint","description":"Save Blueprint for Gen UI Agent.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.applyTaskRemediation","title":"Apply Task Remediations","description":"Apply suggested remediations for a task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.createGoal","title":"Create VDBA Goal","description":"Create VDBA Goal","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.deleteGoal","title":"Delete VDBA Goal","description":"Delete VDBA Goal","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.dismissTask","title":"Dismiss VDBA Task","description":"Dismiss a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.fixTask","title":"Fix VDBA Task","description":"Fix a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.goals.getGoal","title":"Get VDBA Goal","description":"Get VDBA Goal","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.listGoals","title":"List VDBA Goals","description":"List VDBA Goals","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.listTasks","title":"List VDBA Tasks","description":"List VDBA Tasks for a given scope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.markTaskAsDone","title":"Mark a Task as Done manually","description":"Mark a Task as Done manually","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.restoreTask","title":"Restore VDBA Task","description":"Restore a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.goals.updateGoal","title":"Update VDBA Goal","description":"Update VDBA Goal","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.indexRecommendations.query","title":"Query Index Recommendations","description":"Query Index Recommendations for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.instanceEvents.query","title":"Instance Events","description":"Instance Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.locations.get","title":"Get locations","description":"Get locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.locations.list","title":"List locations","description":"List locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.logs.fetch","title":"Fetch Logs","description":"Fetch Logs.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.operations.get","title":"Get Operation","description":"Get the status of an operation","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.performanceIssues.detect","title":"Detect Performance Issues","description":"Detect performance issues for all supported databases","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.performanceIssues.investigate","title":"Investigate Performance Issues","description":"Investigate performance issues for all supported databases","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.queryMetrics.fetch","title":"Fetch Query Metrics","description":"Fetch query metrics for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.queryStats.fetch","title":"Fetch Query Stats","description":"Fetch query aggregated stats for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.queryTimeSeries.fetch","title":"Query History","description":"Query performance history for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.recommendations.query","title":"Query Recommendations","description":"Query Recommendations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.resourceMetadata.fetch","title":"Fetch Resource Metadata","description":"Fetch Resource Metadata for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.resourceRecommendations.query","title":"Query Resource Recommendations","description":"Query Resource Recommendations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.systemMetrics.fetch","title":"Fetch System Metrics","description":"Fetch system metrics for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.telemetryConfig.fetch","title":"Telemetry Config","description":"Telemetry Config","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.timeSeries.query","title":"Query Time Series","description":"Query Time Series","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.traces.fetch","title":"Fetch Traces","description":"Fetch Traces.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.virtualDbaAgent.createAgentPolicy","title":"Create VDBA Agent Policy","description":"Create VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.createContextService","title":"Create VDBA Context Service","description":"Create Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.createGoal","title":"Create VDBA Goal","description":"Create VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.deleteAgentPolicy","title":"Delete VDBA Agent Policy","description":"Delete VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.deleteContextService","title":"Delete VDBA Context Service","description":"Delete Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.deleteGoal","title":"Delete VDBA Goal","description":"Delete VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.disable","title":"Disable Virtual DBA Agent","description":"Disable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.enable","title":"Enable Virtual DBA Agent","description":"Enable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.fetchContextService","title":"Fetch VDBA Context Service","description":"Fetch Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.getAgentPolicy","title":"Get VDBA Agent Policy","description":"Get VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.getGoal","title":"Get VDBA Goal","description":"Get VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.listGoals","title":"List VDBA Goals","description":"List VDBA Goals","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.listTasks","title":"List VDBA Tasks","description":"List VDBA Tasks for a given scope","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.listTodos","title":"List VDBA Todos","description":"List VDBA Todos","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.query","title":"Run Agent","description":"Run Agent for all supported databases.","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.updateAgentPolicy","title":"Update VDBA Agent Policy","description":"Update VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.updateContextService","title":"Update VDBA Context Service","description":"Update Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.updateGoal","title":"Update VDBA Goal","description":"Update VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbxAgent.query","title":"Run Agent","description":"Run Agent for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.waitEventStats.fetch","title":"Fetch Wait Event Stats","description":"Fetch wait event aggregated stats for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.waitEventTimeSeries.fetch","title":"Query Wait Event History","description":"Query wait event history for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -6751,6 +6799,15 @@
 {"name":"datapipelines.pipelines.run","title":"run","description":"Run a Pipeline instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datapipelines.pipelines.stop","title":"stop","description":"Stop a Pipeline instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datapipelines.pipelines.update","title":"update","description":"Update Pipeline","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.create","title":"Create AgentTask","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.delete","title":"Delete AgentTask","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.get","title":"Get AgentTask metadata, excluding configurations and results","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.getData","title":"Get full AgentTask contents, including configurations and results","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.getIamPolicy","title":"Get IAM Policy on AgentTask","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.list","title":"List AgentTasks","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.run","title":"Trigger AgentTask Run","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.setIamPolicy","title":"Set IAM Policy on AgentTask","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.agentTasks.update","title":"Update AgentTask","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.aspectTypes.create","title":"Create an Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.aspectTypes.delete","title":"Delete an Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.aspectTypes.get","title":"Read an Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6907,6 +6964,7 @@
 {"name":"dataplex.entryGroups.useSecondaryIndexesAspect","title":"Use Secondary Indexes Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useStorageAspect","title":"Use Storage Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useSynonymEntryLink","title":"Use Synonym Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useUsageAspect","title":"Use Usage Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinkTypes.create","title":"Create an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinkTypes.delete","title":"Delete an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinkTypes.get","title":"Read an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11077,6 +11135,13 @@
 {"name":"oracledatabase.cloudVmClusters.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudVmClusters.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databaseCharacterSets.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.executeSql","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.test","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databases.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databases.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbNodes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11136,6 +11201,7 @@
 {"name":"oracledatabase.odbNetworks.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.odbNetworks.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbSubnets.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbSubnets.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbSubnets.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
