@@ -85,10 +85,18 @@
 {"name":"aiplatform.agentExamples.get","title":"Get agent example","description":"Get agent example","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentExamples.list","title":"List agent examples under an agent","description":"List agent examples under an agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentExamples.update","title":"Update agent example","description":"Update agent example","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agentMemories.delete","title":"Delete agent memory","description":"Delete agent memory","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agentMemories.get","title":"Get agent memory","description":"Get agent memory","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agentMemories.list","title":"List agent memories under an agent","description":"List agent memories under an agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agentMemories.undelete","title":"Undelete agent memory","description":"Undelete agent memory","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agentMemories.update","title":"Update agent memory","description":"Update agent memory","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agents.create","title":"Create agent","description":"Create agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agents.delete","title":"Delete agent","description":"Delete agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agents.get","title":"Get agent","description":"Get agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agents.getIamPolicy","title":"Get access control policy for Agents","description":"Get access control policy for Agents","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agents.list","title":"List agents under an app","description":"List agents under an app","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agents.suspend","title":"Suspend agent","description":"Suspend agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.agents.unsuspend","title":"Unsuspend agent","description":"Unsuspend agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agents.update","title":"Update agent","description":"Update agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.analyzedInvocations.get","title":"Get AnalyzedInvocation","description":"Get AnalyzedInvocation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.analyzedInvocations.list","title":"List AnalyzedInvocations","description":"List AnalyzedInvocations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -2112,6 +2120,7 @@
 {"name":"capacityplanner.capacityPlans.list","title":"List Capacity Plans","description":"Allows listing capacity plans","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"capacityplanner.capacityPlans.update","title":"Update Capacity Plans","description":"Allows updating capacity plans","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"capacityplanner.forecasts.list","title":"View Usage Forecasts","description":"View Usage Forecasts","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"capacityplanner.messages.generate","title":"Generate Capacity Planner Messages","description":"Allows generating conversational messages from the Capacity Assistant.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"capacityplanner.operations.get","title":"Get Long Running Operations","description":"Allows fetching long running operations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"capacityplanner.planAlertInsights.list","title":"List Capacity Plans Alerts and Insights","description":"Allows listing capacity plan related alerts and insights","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"capacityplanner.usageAlertInsights.list","title":"List Usage Alerts and Insights","description":"Allows listing usage alerts and insights","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -10362,12 +10371,6 @@
 {"name":"modelarmor.templates.useToSanitizeUserPrompt","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"modelarmor.templates.useToStreamSanitizeModelResponse","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"modelarmor.templates.useToStreamSanitizeUserPrompt","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"modelarmor.topics.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"modelarmor.topics.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"modelarmor.topics.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"modelarmor.topics.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"modelarmor.topics.test","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"modelarmor.topics.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"monitoring.alertPolicies.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"monitoring.alertPolicies.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"monitoring.alertPolicies.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -10628,6 +10631,7 @@
 {"name":"networkconnectivity.spokes.listTagBindings","title":"List Tag Bindings on Spoke","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkconnectivity.spokes.setIamPolicy","title":"Set IAM Policy on Spoke","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkconnectivity.spokes.update","title":"Update Spoke","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkconnectivity.spokes.use","title":"Use spoke as dependency in creating other GCE resources","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkconnectivity.transports.create","title":"Create Transports","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkconnectivity.transports.delete","title":"Delete Transports","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkconnectivity.transports.get","title":"Get Transports","stage":"GA","customRolesSupportLevel":"SUPPORTED"}

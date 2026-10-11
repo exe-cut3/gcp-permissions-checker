@@ -85,10 +85,18 @@ aiplatform.agentExamples.delete
 aiplatform.agentExamples.get
 aiplatform.agentExamples.list
 aiplatform.agentExamples.update
+aiplatform.agentMemories.delete
+aiplatform.agentMemories.get
+aiplatform.agentMemories.list
+aiplatform.agentMemories.undelete
+aiplatform.agentMemories.update
 aiplatform.agents.create
 aiplatform.agents.delete
 aiplatform.agents.get
+aiplatform.agents.getIamPolicy
 aiplatform.agents.list
+aiplatform.agents.suspend
+aiplatform.agents.unsuspend
 aiplatform.agents.update
 aiplatform.analyzedInvocations.get
 aiplatform.analyzedInvocations.list
@@ -2112,6 +2120,7 @@ capacityplanner.capacityPlans.get
 capacityplanner.capacityPlans.list
 capacityplanner.capacityPlans.update
 capacityplanner.forecasts.list
+capacityplanner.messages.generate
 capacityplanner.operations.get
 capacityplanner.planAlertInsights.list
 capacityplanner.usageAlertInsights.list
@@ -10362,12 +10371,6 @@ modelarmor.templates.useToSanitizeOutput
 modelarmor.templates.useToSanitizeUserPrompt
 modelarmor.templates.useToStreamSanitizeModelResponse
 modelarmor.templates.useToStreamSanitizeUserPrompt
-modelarmor.topics.create
-modelarmor.topics.delete
-modelarmor.topics.get
-modelarmor.topics.list
-modelarmor.topics.test
-modelarmor.topics.update
 monitoring.alertPolicies.create
 monitoring.alertPolicies.createTagBinding
 monitoring.alertPolicies.delete
@@ -10628,6 +10631,7 @@ networkconnectivity.spokes.listEffectiveTags
 networkconnectivity.spokes.listTagBindings
 networkconnectivity.spokes.setIamPolicy
 networkconnectivity.spokes.update
+networkconnectivity.spokes.use
 networkconnectivity.transports.create
 networkconnectivity.transports.delete
 networkconnectivity.transports.get
