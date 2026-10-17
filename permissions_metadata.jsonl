@@ -2213,6 +2213,7 @@
 {"name":"ces.apps.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ces.apps.runEvaluation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ces.apps.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"ces.arcSessions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ces.assistantSessions.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ces.assistantSessions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ces.assistantSessions.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -4340,6 +4341,11 @@
 {"name":"commerceproducer.analyticsHubListingProductConfigs.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"commerceproducer.analyticsHubListingProductConfigs.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"commerceproducer.analyticsHubListingProductConfigs.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"commerceproducer.consumerEnforcementActions.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"commerceproducer.consumerEnforcementActions.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"commerceproducer.consumerEnforcementActions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"commerceproducer.consumerEnforcementActions.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"commerceproducer.consumerEnforcementActions.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"commerceproducer.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"commerceproducer.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"commerceproducer.privateOfferDocuments.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -6366,7 +6372,7 @@
 {"name":"databaseinsights.locations.get","title":"Get locations","description":"Get locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.locations.list","title":"List locations","description":"List locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.logs.fetch","title":"Fetch Logs","description":"Fetch Logs.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"databaseinsights.operations.get","title":"Get Operation","description":"Get the status of an operation","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.operations.get","title":"Get Operation","description":"Get the status of an operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.performanceIssues.detect","title":"Detect Performance Issues","description":"Detect performance issues for all supported databases","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.performanceIssues.investigate","title":"Investigate Performance Issues","description":"Investigate performance issues for all supported databases","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.queryMetrics.fetch","title":"Fetch Query Metrics","description":"Fetch query metrics for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -6385,8 +6391,8 @@
 {"name":"databaseinsights.virtualDbaAgent.deleteAgentPolicy","title":"Delete VDBA Agent Policy","description":"Delete VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.deleteContextService","title":"Delete VDBA Context Service","description":"Delete Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.deleteGoal","title":"Delete VDBA Goal","description":"Delete VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.virtualDbaAgent.disable","title":"Disable Virtual DBA Agent","description":"Disable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.virtualDbaAgent.enable","title":"Enable Virtual DBA Agent","description":"Enable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.disable","title":"Disable Virtual DBA Agent","description":"Disable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.virtualDbaAgent.enable","title":"Enable Virtual DBA Agent","description":"Enable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.virtualDbaAgent.fetchContextService","title":"Fetch VDBA Context Service","description":"Fetch Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getAgentPolicy","title":"Get VDBA Agent Policy","description":"Get VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getGoal","title":"Get VDBA Goal","description":"Get VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
@@ -6918,26 +6924,37 @@
 {"name":"dataplex.entities.list","title":"List Metadata Entities","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entities.update","title":"Update Metadata Entities","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.create","title":"Create an Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entries.createContext","title":"Create Context Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.delete","title":"Delete an Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entries.deleteContext","title":"Delete Context Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.get","title":"Read an Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entries.getContext","title":"Read Context Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.getData","title":"Read data aspects on an Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.link","title":"Link an Entry through an Entry Link","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.list","title":"List Entries","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entries.listContext","title":"List Context Entries","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entries.update","title":"Update an Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entries.updateContext","title":"Update Context Entry","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.create","title":"Create an Entry Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.createContextSet","title":"Create a Context Set","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.createTagBinding","title":"Create Tag Binding on entryGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.delete","title":"Delete an Entry Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.deleteContextSet","title":"Delete a Context Set","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.deleteTagBinding","title":"Delete Tag Binding on entryGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.export","title":"Allows export of an EntryGroup. Grants permissions to export entries in the EntryGroup.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.get","title":"Read an Entry Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.getContextSet","title":"Read a Context Set","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.getIamPolicy","title":"Get IAM Policy on EntryGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.import","title":"Allows import of an EntryGroup. Grants permissions to create/modify entries in the EntryGroup.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.list","title":"List Entry Groups","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.listEffectiveTags","title":"List Effective Tags on entryGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.listTagBindings","title":"List Tag Bindings on entryGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.requestChanges","title":"Create ChangeRequests with entryGroup updates that need a review.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.requestContextChanges","title":"Request Context Changes","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.setIamPolicy","title":"Set IAM Policy on EntryGroup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.update","title":"Update an Entry Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.updateContextSet","title":"Update a Context Set","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useCertificationAspect","title":"Use Certification Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useContactsAspect","title":"Use Contacts Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useContextAspect","title":"Use Context Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useContextEntry","title":"Use Context Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6961,6 +6978,8 @@
 {"name":"dataplex.entryGroups.useOverviewAspect","title":"Use Overview Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.usePostgreSQLConnectorTypes","title":"Use PostgreSQL Entry and Aspect Types.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useQueriesAspect","title":"Use Queries Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useQueryTemplateAspect","title":"Use Query Template Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useQueryTemplateEntry","title":"Use Query Template Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useReferenceEntryLink","title":"Use Reference Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useRefreshCadenceAspect","title":"Use Refresh Cadence Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useRelatedEntryLink","title":"Use Related Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -9193,6 +9212,8 @@
 {"name":"gkeonprem.vmwareNodePools.unenroll","title":"Unenroll VMware Node Pools","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gkeonprem.vmwareNodePools.update","title":"Update VMware Node Pools","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.authorizations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gsuiteaddons.chatAppConfigs.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gsuiteaddons.chatAppConfigs.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.deployments.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.deployments.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.deployments.execute","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
