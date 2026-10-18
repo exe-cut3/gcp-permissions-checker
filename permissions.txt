@@ -23,6 +23,7 @@ agentidentity.accessSummaries.get
 agentidentity.accessSummaries.list
 agentidentity.authProviders.create
 agentidentity.authProviders.delete
+agentidentity.authProviders.exchangeCredentials
 agentidentity.authProviders.get
 agentidentity.authProviders.getIamPolicy
 agentidentity.authProviders.list
@@ -32,9 +33,14 @@ agentidentity.authProviders.revokeAuthorizations
 agentidentity.authProviders.setIamPolicy
 agentidentity.authProviders.undelete
 agentidentity.authProviders.update
+agentidentity.authorizations.create
 agentidentity.authorizations.delete
+agentidentity.authorizations.exchangeCredentials
 agentidentity.authorizations.get
+agentidentity.authorizations.getIamPolicy
 agentidentity.authorizations.list
+agentidentity.authorizations.retrieveCredentials
+agentidentity.authorizations.setIamPolicy
 agentidentity.locations.get
 agentidentity.locations.list
 agentregistry.agents.get
@@ -11167,6 +11173,7 @@ oracledatabase.databaseConnections.get
 oracledatabase.databaseConnections.list
 oracledatabase.databaseConnections.test
 oracledatabase.databaseConnections.update
+oracledatabase.databaseConnections.use
 oracledatabase.databases.get
 oracledatabase.databases.list
 oracledatabase.dbNodes.list
@@ -11221,6 +11228,10 @@ oracledatabase.goldenGateDeployments.use
 oracledatabase.locations.get
 oracledatabase.locations.list
 oracledatabase.minorVersions.list
+oracledatabase.odbDnsZones.create
+oracledatabase.odbDnsZones.delete
+oracledatabase.odbDnsZones.get
+oracledatabase.odbDnsZones.list
 oracledatabase.odbNetworks.create
 oracledatabase.odbNetworks.delete
 oracledatabase.odbNetworks.get
@@ -11239,6 +11250,10 @@ oracledatabase.operations.get
 oracledatabase.operations.list
 oracledatabase.pluggableDatabases.get
 oracledatabase.pluggableDatabases.list
+oracledatabase.serviceIntegrations.create
+oracledatabase.serviceIntegrations.delete
+oracledatabase.serviceIntegrations.get
+oracledatabase.serviceIntegrations.list
 oracledatabase.systemVersions.list
 orgpolicy.constraints.list
 orgpolicy.policies.create
@@ -12816,6 +12831,7 @@ serviceusage.apiKeys.list
 serviceusage.apiKeys.regenerate
 serviceusage.apiKeys.revert
 serviceusage.apiKeys.update
+serviceusage.catalogs.listMembers
 serviceusage.consumerpolicy.analyze
 serviceusage.consumerpolicy.get
 serviceusage.consumerpolicy.update
@@ -12835,6 +12851,8 @@ serviceusage.services.disable
 serviceusage.services.enable
 serviceusage.services.get
 serviceusage.services.list
+serviceusage.services.listApis
+serviceusage.services.listDependentServices
 serviceusage.services.use
 serviceusage.values.check
 serviceusage.values.test

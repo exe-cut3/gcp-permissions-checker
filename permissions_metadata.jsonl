@@ -23,6 +23,7 @@
 {"name":"agentidentity.accessSummaries.list","title":"List Access Summaries","description":"Allows listing access summaries.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.create","title":"Create Auth Provider","description":"Allows creating an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.delete","title":"Delete Auth Provider","description":"Allows deleting an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentidentity.authProviders.exchangeCredentials","title":"Exchange Credentials","description":"Allows exchanging credentials from an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.get","title":"Get Auth Provider","description":"Allows getting an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.getIamPolicy","title":"Get IAM Policy for Auth Provider","description":"Allows getting the IAM policy for an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.list","title":"List Auth Providers","description":"Allows listing auth providers.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -32,9 +33,14 @@
 {"name":"agentidentity.authProviders.setIamPolicy","title":"Set IAM Policy for Auth Provider","description":"Allows setting the IAM policy for an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.undelete","title":"Undelete Auth Provider","description":"Allows undeleting an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authProviders.update","title":"Update Auth Provider","description":"Allows updating an auth provider.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentidentity.authorizations.create","title":"Create Authorization","description":"Allows creating an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authorizations.delete","title":"Delete Authorization","description":"Allows deleting an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentidentity.authorizations.exchangeCredentials","title":"Exchange Credentials","description":"Allows exchanging credentials from an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authorizations.get","title":"Get Authorization","description":"Allows getting an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentidentity.authorizations.getIamPolicy","title":"Get IAM Policy for Authorization","description":"Allows getting the IAM policy for an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.authorizations.list","title":"List Authorizations","description":"Allows listing authorizations.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentidentity.authorizations.retrieveCredentials","title":"Retrieve Credentials","description":"Allows retrieving credentials from an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentidentity.authorizations.setIamPolicy","title":"Set IAM Policy for Authorization","description":"Allows setting the IAM policy for an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.locations.get","title":"Get Location","description":"Allows getting a location.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.locations.list","title":"List Locations","description":"Allows listing locations.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.agents.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -8202,8 +8208,8 @@
 {"name":"dspm.operations.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dspm.operations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dspm.operations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"earth.subscriptions.get","title":"Read Earth Subscriptions","description":"Allows viewing Earth subscription configuration.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"earth.subscriptions.update","title":"Update Earth Subscriptions","description":"Allows managing Earth subscription configuration.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"earth.subscriptions.get","title":"Read Earth Subscriptions","description":"Allows viewing Earth subscription configuration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"earth.subscriptions.update","title":"Update Earth Subscriptions","description":"Allows managing Earth subscription configuration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"earthengine.assets.create","title":"Create Earth Engine Assets","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"earthengine.assets.delete","title":"Delete Earth Engine Assets","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"earthengine.assets.get","title":"Get Earth Engine Assets","stage":"BETA","customRolesSupportLevel":"TESTING"}
@@ -11073,49 +11079,49 @@
 {"name":"oauthpolicymetadata.clientpolicy.get","title":"Get the OAuth verification config of an OAuth client","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"oauthconfig.clientpolicy.get"}
 {"name":"oauthtestapp.userwhitelist.read","title":"View the trusted user list for a test app","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"oauthconfig.testusers.get"}
 {"name":"oauthtestapp.userwhitelist.write","title":"Edit the trusted user list for a test app","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"oauthconfig.testusers.update"}
-{"name":"observability.analyticsViews.create","title":"Create Analytics View","description":"Create an Analytics View","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.analyticsViews.delete","title":"Delete Analytics View","description":"Delete an Analytics View","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.analyticsViews.get","title":"Get Analytics View","description":"Get an Analytics View","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.analyticsViews.list","title":"List Analytics Views","description":"List Analytics Views","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.analyticsViews.update","title":"Update Analytics View","description":"Update an Analytics View","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.buckets.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.buckets.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.buckets.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.buckets.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.buckets.undelete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.buckets.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.datasets.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.datasets.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.datasets.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.datasets.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.datasets.undelete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.datasets.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.links.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.links.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.links.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.links.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.links.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.operations.cancel","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.operations.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.operations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.operations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.scopes.get","title":"Get scope","description":"Get scope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.scopes.update","title":"Update scope","description":"Update scope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.settings.get","title":"Get Settings","description":"Get default Settings for Observability","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.settings.update","title":"Update Settings","description":"Update default Settings for Observability","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.traceScopes.create","title":"Create TraceScope","description":"Create a TraceScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.traceScopes.delete","title":"Delete TraceScope","description":"Delete a TraceScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.traceScopes.get","title":"Get TraceScope","description":"Get a single TraceScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.traceScopes.list","title":"List TraceScopes","description":"List TraceScopes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.traceScopes.update","title":"Update TraceScope","description":"Update a TraceScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.views.access","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.views.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.views.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.views.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.views.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"observability.views.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.analyticsViews.create","title":"Create Analytics View","description":"Create an Analytics View","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.analyticsViews.delete","title":"Delete Analytics View","description":"Delete an Analytics View","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.analyticsViews.get","title":"Get Analytics View","description":"Get an Analytics View","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.analyticsViews.list","title":"List Analytics Views","description":"List Analytics Views","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.analyticsViews.update","title":"Update Analytics View","description":"Update an Analytics View","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.buckets.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.buckets.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.buckets.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.buckets.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.buckets.undelete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.buckets.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.datasets.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.datasets.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.datasets.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.datasets.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.datasets.undelete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.datasets.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.links.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.links.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.links.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.links.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.links.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.locations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.locations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.operations.cancel","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.operations.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.operations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.operations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.scopes.get","title":"Get scope","description":"Get scope","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.scopes.update","title":"Update scope","description":"Update scope","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.settings.get","title":"Get Settings","description":"Get default Settings for Observability","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.settings.update","title":"Update Settings","description":"Update default Settings for Observability","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.traceScopes.create","title":"Create TraceScope","description":"Create a TraceScope","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.traceScopes.delete","title":"Delete TraceScope","description":"Delete a TraceScope","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.traceScopes.get","title":"Get TraceScope","description":"Get a single TraceScope","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.traceScopes.list","title":"List TraceScopes","description":"List TraceScopes","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.traceScopes.update","title":"Update TraceScope","description":"Update a TraceScope","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.views.access","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.views.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.views.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.views.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.views.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"observability.views.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ondemandscanning.operations.cancel","title":"Cancel","description":"Cancel an Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ondemandscanning.operations.delete","title":"Delete","description":"Delete an Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"ondemandscanning.operations.get","title":"Get","description":"Get an Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11167,6 +11173,7 @@
 {"name":"oracledatabase.databaseConnections.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databaseConnections.test","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databaseConnections.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.databaseConnections.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databases.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databases.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbNodes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11221,6 +11228,10 @@
 {"name":"oracledatabase.locations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.locations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.minorVersions.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.odbDnsZones.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.odbDnsZones.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.odbDnsZones.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.odbDnsZones.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11239,6 +11250,10 @@
 {"name":"oracledatabase.operations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.pluggableDatabases.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.pluggableDatabases.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.serviceIntegrations.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.serviceIntegrations.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.serviceIntegrations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.serviceIntegrations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.systemVersions.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"orgpolicy.constraints.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"orgpolicy.policies.create","stage":"GA","customRolesSupportLevel":"NOT_SUPPORTED"}
@@ -12816,16 +12831,17 @@
 {"name":"serviceusage.apiKeys.regenerate","title":"Regenerate an API key","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"serviceusage.apiKeys.revert","title":"Revert an API key","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"serviceusage.apiKeys.update","title":"Update API key details","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"apikeys.keys.update"}
-{"name":"serviceusage.consumerpolicy.analyze","title":"Analyze a consumer policy change","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.consumerpolicy.get","title":"Get a consumer policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.consumerpolicy.update","title":"Update a consumer policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.catalogs.listMembers","title":"List members for a catalog.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.consumerpolicy.analyze","title":"Analyze a consumer policy change","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.consumerpolicy.get","title":"Get a consumer policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.consumerpolicy.update","title":"Update a consumer policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.contentsecuritypolicy.get","title":"Get a content security policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.contentsecuritypolicy.update","title":"Update a content security policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.effectivemcppolicy.get","title":"Get an effective MCP policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.effectivepolicy.get","title":"Get an effective policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.groups.list","title":"List service groups owned by a service.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.groups.listExpandedMembers","title":"List expanded members of a service group.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.groups.listMembers","title":"List members for a service group.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.effectivepolicy.get","title":"Get an effective policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.groups.list","title":"List service groups owned by a service.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.groups.listExpandedMembers","title":"List expanded members of a service group.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.groups.listMembers","title":"List members for a service group.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.mcppolicy.get","title":"Get a MCP consumer policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.mcppolicy.update","title":"Update a MCP consumer policy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.operations.get","title":"Read operation","stage":"DEPRECATED","customRolesSupportLevel":"TESTING"}
@@ -12835,9 +12851,11 @@
 {"name":"serviceusage.services.enable","title":"Enable a service","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.services.get","title":"Get enablement state of a service","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.services.list","title":"List services used by a project","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.services.listApis","title":"List APIs exposed by the given service","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.services.listDependentServices","title":"List dependent services","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"serviceusage.services.use","title":"Consume quota and billing","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"serviceusage.values.check","title":"Test value enablement status in the resource hierarchy","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"serviceusage.values.test"}
-{"name":"serviceusage.values.test","title":"Test value enablement status in the resource hierarchy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"serviceusage.values.check","title":"Test value enablement status in the resource hierarchy","stage":"GA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"serviceusage.values.test"}
+{"name":"serviceusage.values.test","title":"Test value enablement status in the resource hierarchy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"source.repos.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"source.repos.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"source.repos.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
