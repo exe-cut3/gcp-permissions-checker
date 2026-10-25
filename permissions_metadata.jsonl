@@ -1093,6 +1093,11 @@
 {"name":"apihub.externalApis.get","title":"Get ExternalAPI","description":"Get ExternalAPI","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apihub.externalApis.list","title":"List ExternalAPI","description":"List ExternalAPI","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apihub.externalApis.update","title":"Update ExternalAPI","description":"Update ExternalAPI","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apihub.generatedSpecApis.associate","title":"Associate Generated Spec","description":"Associate Generated Spec","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apihub.generatedSpecApis.get","title":"Get Generated Spec API","description":"Get Generated Spec API","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apihub.generatedSpecApis.list","title":"List Generated Spec APIs","description":"List Generated Spec APIs","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apihub.generatedSpecApis.retrieveBoostedSpecView","title":"Retrieve Boosted Spec View","description":"Retrieve Boosted Spec View","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apihub.generatedSpecApis.retrieveGeneratedSpecView","title":"Retrieve Generated Spec View","description":"Retrieve Generated Spec View","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apihub.hostProjectRegistrations.create","title":"Create HostProject Registration","description":"Create HostProject Registration","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apihub.hostProjectRegistrations.delete","title":"Delete HostProject Registration","description":"Delete HostProject Registration","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apihub.hostProjectRegistrations.get","title":"Get HostProject Registration","description":"Get HostProject Registration","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -1466,18 +1471,18 @@
 {"name":"autoscaling.sites.writeState","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"axt.labels.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"axt.labels.set","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.appliedAutoProtectionPolicies.authorize","title":"Authorize AppliedAutoProtectionPolicies","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.appliedAutoProtectionPolicies.list","title":"List AppliedAutoProtectionPolicies","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.appliedAutoProtectionPolicies.viewMatchingResources","title":"View MatchingResources","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionBindings.create","title":"Create AutoProtectionPolicyBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionBindings.delete","title":"Delete AutoProtectionPolicyBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionBindings.get","title":"Get AutoProtectionPolicyBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionBindings.list","title":"List AutoProtectionPolicyBindings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionPolicies.create","title":"Create AutoProtectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionPolicies.delete","title":"Delete AutoProtectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionPolicies.get","title":"Get AutoProtectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionPolicies.list","title":"List AutoProtectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.autoProtectionPolicies.update","title":"Update AutoProtectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.appliedAutoProtectionPolicies.authorize","title":"Authorize AppliedAutoProtectionPolicies","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.appliedAutoProtectionPolicies.list","title":"List AppliedAutoProtectionPolicies","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.appliedAutoProtectionPolicies.viewMatchingResources","title":"View MatchingResources","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionBindings.create","title":"Create AutoProtectionPolicyBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionBindings.delete","title":"Delete AutoProtectionPolicyBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionBindings.get","title":"Get AutoProtectionPolicyBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionBindings.list","title":"List AutoProtectionPolicyBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionPolicies.create","title":"Create AutoProtectionPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionPolicies.delete","title":"Delete AutoProtectionPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionPolicies.get","title":"Get AutoProtectionPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionPolicies.list","title":"List AutoProtectionPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.autoProtectionPolicies.update","title":"Update AutoProtectionPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.create","title":"Create Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"backupdr.backupPlanAssociations.createForComputeInstance"}
 {"name":"backupdr.backupPlanAssociations.createForAlloydbCluster","title":"Create Backup Plan Association for AlloyDB Cluster","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.createForCloudSqlInstance","title":"Create Backup Plan Association for CLoud SQL Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -1535,7 +1540,7 @@
 {"name":"backupdr.backupVaults.listEffectiveTags","title":"List Effective Tag Bindings on BackupVault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupVaults.listTagBindings","title":"List Tag Bindings on BackupVault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupVaults.update","title":"Update BackupVault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"backupdr.bindingMatchingResources.list","title":"List BindingMatchingResources","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bindingMatchingResources.list","title":"List BindingMatchingResources","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.delete","title":"Delete Backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.fetchForCloudSqlInstance","title":"Fetch backups for all Cloud SQL instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.fetchForComputeDisk","title":"Fetch backups for all Compute Disks","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -2879,8 +2884,8 @@
 {"name":"chronicle.searchQueries.get","title":"Get a Saved Search Query","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.searchQueries.list","title":"List Saved Search Queries","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.searchQueries.update","title":"Update a Saved Search Query","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"chronicle.searchSessions.search","title":"Run a Search Session","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"chronicle.searchedResults.list","title":"List Searched Results","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.searchSessions.search","title":"Run a Search Session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.searchedResults.list","title":"List Searched Results","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.shareConfigs.get","title":"Get Share Config.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.shareConfigs.update","title":"Update Share Config.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.sharedPreferenceSets.create","title":"Create a Shared Preference Set","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -5106,12 +5111,12 @@
 {"name":"compute.regionSslPolicies.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.regionSslPolicies.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.regionSslPolicies.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.listAvailableFeatures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.regionSslPolicies.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.regionSslPolicies.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionSslPolicies.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionTargetHttpProxies.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5281,19 +5286,19 @@
 {"name":"compute.sslCertificates.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslCertificates.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslCertificates.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.sslPolicies.create","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"compute.sslPolicies.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.sslPolicies.delete","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"compute.sslPolicies.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.sslPolicies.get","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"compute.sslPolicies.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.sslPolicies.list","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"compute.sslPolicies.listAvailableFeatures","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"compute.sslPolicies.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.sslPolicies.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.sslPolicies.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.sslPolicies.listAvailableFeatures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.sslPolicies.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.sslPolicies.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.sslPolicies.update","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"compute.sslPolicies.use","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"compute.sslPolicies.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.sslPolicies.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.sslPolicies.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.storagePools.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.storagePools.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.storagePools.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6506,17 +6511,25 @@
 {"name":"dataconnectors.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.jobs.cancel","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.jobs.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.jobs.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.jobs.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.jobs.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.jobs.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.jobs.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.jobs.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.jobs.snapshot","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.jobs.updateContents","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.messages.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.metrics.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.shuffle.read","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.shuffle.write","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.snapshots.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.snapshots.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.snapshots.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.snapshots.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.snapshots.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.snapshots.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataflow.snapshots.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.streamingWorkItems.ImportState","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.streamingWorkItems.commitWork","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataflow.streamingWorkItems.getData","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8111,9 +8124,6 @@
 {"name":"dns.responsePolicyRules.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.responsePolicyRules.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.responsePolicyRules.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"documentai.dataLabelingJobs.cancel","title":"Cancel data labeling jobs.","description":"Cancel data labeling jobs.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"documentai.dataLabelingJobs.create","title":"Create data labeling jobs.","description":"Create data labeling jobs.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"documentai.dataLabelingJobs.list","title":"List data labeling jobs.","description":"List data labeling jobs.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"documentai.datasetSchemas.get","title":"Get schemas of the datasets.","description":"Get schemas of the datasets.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"documentai.datasetSchemas.update","title":"Update the schemas of datasets.","description":"Update the schemas of datasets.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"documentai.datasets.createDocuments","title":"Create documents within the dataset.","description":"Create documents within the dataset.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -8745,6 +8755,13 @@
 {"name":"firebasedataconnect.services.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.introspectGraphql","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestCallFunction","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestDelete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestInsert","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestQueryFunction","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestSelect","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestUpdate","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.postgrestUpsert","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedynamiclinks.destinations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedynamiclinks.destinations.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
