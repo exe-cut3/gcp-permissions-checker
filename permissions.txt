@@ -4130,6 +4130,7 @@ cloudsql.instances.migrate
 cloudsql.instances.performDiskShrink
 cloudsql.instances.preCheckMajorVersionUpgrade
 cloudsql.instances.promoteReplica
+cloudsql.instances.reconcileNetworking
 cloudsql.instances.reencrypt
 cloudsql.instances.resetReplicaSize
 cloudsql.instances.resetSslConfig
@@ -4486,6 +4487,12 @@ compute.crossSiteNetworks.delete
 compute.crossSiteNetworks.get
 compute.crossSiteNetworks.list
 compute.crossSiteNetworks.update
+compute.dhcpOptionsConfigs.create
+compute.dhcpOptionsConfigs.delete
+compute.dhcpOptionsConfigs.get
+compute.dhcpOptionsConfigs.list
+compute.dhcpOptionsConfigs.update
+compute.dhcpOptionsConfigs.use
 compute.diskSettings.get
 compute.diskSettings.update
 compute.diskTypes.get
