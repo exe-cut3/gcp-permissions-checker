@@ -1489,22 +1489,26 @@
 {"name":"backupdr.backupPlanAssociations.createForComputeDisk","title":"Create Backup Plan Associations for Compute Disk","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.createForComputeInstance","title":"Create Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.createForFilestoreInstance","title":"Create Backup Plan Association for Filestore Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlanAssociations.createForNetappVolumes","title":"Create Backup Plan Association for NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.delete","title":"Delete  Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"backupdr.backupPlanAssociations.deleteForComputeInstance"}
 {"name":"backupdr.backupPlanAssociations.deleteForAlloydbCluster","title":"Delete Backup Plan Association for AlloyDB Cluster","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.deleteForCloudSqlInstance","title":"Delete Backup Plan Association for Cloud SQL Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.deleteForComputeDisk","title":"Delete Backup Plan Association for Compute Disk","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.deleteForComputeInstance","title":"Delete  Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.deleteForFilestoreInstance","title":"Delete Backup Plan Association for Filestore Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlanAssociations.deleteForNetappVolumes","title":"Delete Backup Plan Association for NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.fetchForAlloydbCluster","title":"Fetch Backup Plan Associations for all AlloyDB Clusters","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.fetchForCloudSqlInstance","title":"Fetch Backup Plan Associations for all Cloud SQL Instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.fetchForComputeDisk","title":"Fetch Backup Plan Associations for all Compute Disks","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.fetchForComputeInstance","title":"Fetch Backup Plan Associations for all Compute Instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.fetchForFilestoreInstance","title":"Fetch Backup Plan Associations for all Filestore Instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlanAssociations.fetchForNetappVolumes","title":"Fetch Backup Plan Associations for all NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.getForAlloydbCluster","title":"Get Backup Plan Association for AlloyDB Cluster","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.getForCloudSqlInstance","title":"Get Backup Plan Association for Cloud SQL Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.getForComputeDisk","title":"Get Backup Plan Association for Compute Disk","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.getForComputeInstance","title":"Get Backup Plan Association","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.getForFilestoreInstance","title":"Get Backup Plan Association for Filestore Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlanAssociations.getForNetappVolumes","title":"Get Backup Plan Association for NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.list","title":"List  Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.triggerBackup","title":"Trigger Backup on Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED","primaryPermission":"backupdr.backupPlanAssociations.triggerBackupForComputeInstance"}
 {"name":"backupdr.backupPlanAssociations.triggerBackupForAlloydbCluster","title":"Trigger Backup on Backup Plan Association for AlloyDB Cluster","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -1512,11 +1516,13 @@
 {"name":"backupdr.backupPlanAssociations.triggerBackupForComputeDisk","title":"Trigger Backup on Backup Plan Association for Compute Disk","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.triggerBackupForComputeInstance","title":"Trigger Backup on Backup Plan Associations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.triggerBackupForFilestoreInstance","title":"Trigger Backup on Backup Plan Association for Filestore Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlanAssociations.triggerBackupForNetappVolumes","title":"Trigger Backup on Backup Plan Association for NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.updateForAlloydbCluster","title":"Update Backup Plan Associations for AlloyDB Cluster","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.updateForCloudSqlInstance","title":"Update Backup Plan Associations for Cloud SQL Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.updateForComputeDisk","title":"Update Backup Plan Associations for Compute Disk","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.updateForComputeInstance","title":"Update Backup Plan Associations for Compute Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanAssociations.updateForFilestoreInstance","title":"Update Backup Plan Associations for Filestore Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlanAssociations.updateForNetappVolumes","title":"Update Backup Plan Associations for NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanRevisions.get","title":"Get BackupPlanRevision","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlanRevisions.list","title":"List BackupPlanRevisions","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlans.create","title":"Create Backup Plan","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -1530,6 +1536,7 @@
 {"name":"backupdr.backupPlans.useForComputeDisk","title":"Use Compute Disk Instance Backup Plan","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlans.useForComputeInstance","title":"Use Compute Instance Backup Plan","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupPlans.useForFilestoreInstance","title":"Use Filestore Instance Backup Plan","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.backupPlans.useForNetappVolumes","title":"Use NetApp Volumes Backup Plan","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupVaults.associate","title":"Associate BackupVault","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupVaults.create","title":"Create BackupVault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.backupVaults.createTagBinding","title":"Create Tag Bindings on BackupVault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -1545,6 +1552,7 @@
 {"name":"backupdr.bvbackups.fetchForCloudSqlInstance","title":"Fetch backups for all Cloud SQL instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.fetchForComputeDisk","title":"Fetch backups for all Compute Disks","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.fetchForComputeInstance","title":"Fetch backups for all Compute instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bvbackups.fetchForNetappVolumes","title":"Fetch backups for all NetApp volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.get","title":"Get Backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.list","title":"List Backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.restore","title":"Restore Backup","description":"Restore from a backup in the backup vault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -1552,6 +1560,7 @@
 {"name":"backupdr.bvbackups.useReadOnlyForAlloydbCluster","title":"Use Read Only for AlloyDB","description":"Use backup for restore of AlloyDB clusters","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.useReadOnlyForCloudSqlInstance","title":"Use Read Only for CloudSQL","description":"Use backup for restore of CloudSQL instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.useReadOnlyForFilestoreInstance","title":"Use Read Only for Filestore Instance","description":"Use backup for restore of Filestore instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bvbackups.useReadOnlyForNetappVolumes","title":"Use Read Only for NetApp Volumes","description":"Use backup for restore of NetApp volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvdataSources.abandonBackup","title":"Abandon Backup","description":"Abandon the in-progress backup in the backup vault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvdataSources.fetchAccessToken","title":"Fetch AccessToken","description":"Fetch an access token to use when writing data to the backup object","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvdataSources.finalizeBackup","title":"Finalize Backup","description":"Finalize the in-progress backup in the backup vault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -1567,9 +1576,11 @@
 {"name":"backupdr.dataSourceReferences.fetchForAlloydbCluster","title":"Fetch Data Source References for all AlloyDB Clusters","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.fetchForCloudSqlInstance","title":"Fetch Data Source References for all Cloud SQL Instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.fetchForFilestoreInstance","title":"Fetch Data Source References for all Filestore Instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.dataSourceReferences.fetchForNetappVolumes","title":"Fetch Data Source References for all NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.getForAlloydbCluster","title":"Get Data Source Reference for AlloyDB Cluster","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.getForCloudSqlInstance","title":"Get Data Source Reference for Cloud SQL Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.getForFilestoreInstance","title":"Get Data Source Reference for Filestore Instance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.dataSourceReferences.getForNetappVolumes","title":"Get Data Source Reference for NetApp Volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.list","title":"List Data Source References","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.locations.get","title":"Get Location","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.locations.list","title":"List Locations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4420,6 +4431,12 @@
 {"name":"composer.userworkloadssecrets.get","title":"Read Composer User Workloads Secrets","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"composer.userworkloadssecrets.list","title":"List Composer User Workloads Secrets","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"composer.userworkloadssecrets.update","title":"Update Composer User Workloads Secrets","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorInterconnectMemberInstances.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorInterconnects.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorInterconnects.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorInterconnects.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorInterconnects.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorInterconnects.queryFormability","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.addresses.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6400,6 +6417,13 @@
 {"name":"databaseinsights.resourceMetadata.fetch","title":"Fetch Resource Metadata","description":"Fetch Resource Metadata for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.resourceRecommendations.query","title":"Query Resource Recommendations","description":"Query Resource Recommendations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.systemMetrics.fetch","title":"Fetch System Metrics","description":"Fetch system metrics for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.tasks.applyTaskRemediation","title":"Apply Task Remediations","description":"Apply suggested remediations for a task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.dismissTask","title":"Dismiss VDBA Task","description":"Dismiss a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.fixTask","title":"Fix VDBA Task","description":"Fix a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.tasks.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.listTasks","title":"List VDBA Tasks","description":"List VDBA Tasks for a given scope","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.markTaskAsDone","title":"Mark a Task as Done manually","description":"Mark a Task as Done manually","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.restoreTask","title":"Restore VDBA Task","description":"Restore a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.telemetryConfig.fetch","title":"Telemetry Config","description":"Telemetry Config","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.timeSeries.query","title":"Query Time Series","description":"Query Time Series","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.traces.fetch","title":"Fetch Traces","description":"Fetch Traces.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -6412,6 +6436,7 @@
 {"name":"databaseinsights.virtualDbaAgent.disable","title":"Disable Virtual DBA Agent","description":"Disable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.virtualDbaAgent.enable","title":"Enable Virtual DBA Agent","description":"Enable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.virtualDbaAgent.fetchContextService","title":"Fetch VDBA Context Service","description":"Fetch Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.get","title":"Get Virtual DBA Agent","description":"Get Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getAgentPolicy","title":"Get VDBA Agent Policy","description":"Get VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getGoal","title":"Get VDBA Goal","description":"Get VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
@@ -6736,6 +6761,7 @@
 {"name":"datalineage.events.get","title":"Get Lineage Events","description":"Get Lineage Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.events.getFields","title":"Get Lineage Event Fields","description":"Get Lineage Event Fields","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.events.list","title":"List Lineage Events","description":"List Lineage Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"datalineage.locations.importLineage","title":"Import Lineage","description":"Import Lineage","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.locations.processOpenLineageMessage","title":"Process Open Lineage Message","description":"Process Open Lineage Message","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.locations.searchLinks","title":"Search Links","description":"Search Links","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.operations.get","title":"Get Operations","description":"Get Operations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8092,6 +8118,8 @@
 {"name":"dns.dnsKeys.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.gkeClusters.bindDNSResponsePolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.gkeClusters.bindPrivateDNSZone","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.locations.get","title":"Get Location","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.locations.list","title":"List Locations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.managedZoneOperations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.managedZoneOperations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.managedZones.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8106,6 +8134,17 @@
 {"name":"dns.networks.bindPrivateDNSZone","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.networks.targetWithPeeringZone","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.networks.useHealthSignals","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.operations.list","title":"List Operations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.bindPrivateDNSPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.bindPrivateDNSZone","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dns.outboundEndpoints.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.policies.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.policies.createTagBinding","title":"Create Tag Bindings on DNS policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dns.policies.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8667,9 +8706,13 @@
 {"name":"firebaseappdistro.testers.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseappdistro.testers.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.backends.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebaseapphosting.backends.createTagBinding","title":"Create tag binding for backends","description":"Create tag binding for backends","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.backends.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebaseapphosting.backends.deleteTagBinding","title":"Delete tag binding for backends","description":"Delete tag binding for backends","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.backends.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.backends.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebaseapphosting.backends.listEffectiveTags","title":"List effective tags for backends","description":"List effective tags for backends","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebaseapphosting.backends.listTagBindings","title":"List tag bindings for backends","description":"List tag bindings for backends","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.backends.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.builds.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebaseapphosting.builds.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8754,7 +8797,9 @@
 {"name":"firebasedataconnect.schemas.migrate","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.schemas.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.createTagBinding","title":"Create tag binding for services","description":"Create tag binding for services","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.deleteTagBinding","title":"Delete tag binding for services","description":"Delete tag binding for services","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.executeGraphql","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.executeGraphqlRead","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.generateQuery","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -8762,6 +8807,8 @@
 {"name":"firebasedataconnect.services.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.introspectGraphql","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.listEffectiveTags","title":"List effective tags for services","description":"List effective tags for services","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasedataconnect.services.listTagBindings","title":"List tag bindings for services","description":"List tag bindings for services","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.postgrestCallFunction","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.postgrestDelete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasedataconnect.services.postgrestInsert","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -8919,9 +8966,13 @@
 {"name":"gdchardwaremanagement.comments.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.comments.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardware.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.hardware.createTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardware.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.hardware.deleteTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardware.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardware.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.hardware.listEffectiveTags","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.hardware.listTagBindings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardware.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardwareGroups.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.hardwareGroups.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -8935,12 +8986,17 @@
 {"name":"gdchardwaremanagement.operations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.operations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.orders.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.orders.createTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.orders.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.orders.deleteTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.orders.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.orders.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.orders.listEffectiveTags","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.orders.listTagBindings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.orders.submit","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.orders.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.sites.createTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -10220,8 +10276,23 @@
 {"name":"memcache.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memcache.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memcache.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicies.create","title":"Create ACL Policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicies.delete","title":"Delete ACL Policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicies.get","title":"Get ACL Policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicies.list","title":"List ACL Policies","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicies.update","title":"Update ACL Policy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicyRevisions.get","title":"Get ACL Policy Revision","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.aclPolicyRevisions.list","title":"List ACL Policy Revisions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.authTokens.create","title":"Create auth token","description":"Create auth token","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.authTokens.delete","title":"Delete auth token","description":"Delete auth token","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.authTokens.get","title":"Get auth token","description":"Get auth token","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.authTokens.list","title":"List auth tokens","description":"List auth tokens","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.backupCollections.createTagBinding","title":"Create tag binding for backupCollections","description":"Create tag binding for backupCollections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.backupCollections.deleteTagBinding","title":"Delete tag binding for backupCollections","description":"Delete tag binding for backupCollections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.backupCollections.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.backupCollections.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.backupCollections.listEffectiveTags","title":"List effective tags for backupCollections","description":"List effective tags for backupCollections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.backupCollections.listTagBindings","title":"List tag bindings for backupCollections","description":"List tag bindings for backupCollections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.backups.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.backups.export","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.backups.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -10229,10 +10300,14 @@
 {"name":"memorystore.instances.backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.connect","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.instances.createTagBinding","title":"Create tag binding for instances","description":"Create tag binding for instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.instances.deleteTagBinding","title":"Delete tag binding for instances","description":"Delete tag binding for instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.finishMigration","title":"Finish migration for Memorystore instances","description":"Finish migration for Memorystore instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.instances.listEffectiveTags","title":"List effective tags for instances","description":"List effective tags for instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.instances.listTagBindings","title":"List tag bindings for instances","description":"List tag bindings for instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.startMigration","title":"Start migration for Memorystore instances","description":"Start migration for Memorystore instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.instances.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.locations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -10241,6 +10316,10 @@
 {"name":"memorystore.operations.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.operations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"memorystore.operations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.tokenAuthUsers.create","title":"Create token auth user","description":"Create token auth user","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.tokenAuthUsers.delete","title":"Delete token auth user","description":"Delete token auth user","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.tokenAuthUsers.get","title":"Get token auth user","description":"Get token auth user","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"memorystore.tokenAuthUsers.list","title":"List token auth users","description":"List token auth users","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"meshconfig.projects.init","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"metastore.backups.create","title":"Create Backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"metastore.backups.delete","title":"Delete Backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -12482,8 +12561,18 @@
 {"name":"saasservicemgmt.units.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"saasservicemgmt.units.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"saasservicemgmt.units.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.backups.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.backups.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.backups.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.backups.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.backups.restore","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.backups.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.locations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.locations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.operations.cancel","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.operations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.operations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.secrets.backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -12494,6 +12583,7 @@
 {"name":"secretmanager.secrets.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.listTagBindings","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"secretmanager.secrets.restore","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.rotate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"secretmanager.secrets.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -13613,6 +13703,7 @@
 {"name":"vmmigration.utilizationReports.delete","title":"Delete UtilizationReport","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vmmigration.utilizationReports.get","title":"Get UtilizationReport","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vmmigration.utilizationReports.list","title":"List UtilizationReport","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"vmwareengine.capacityAllocations.list","title":"List CapacityAllocations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vmwareengine.clusters.create","title":"Create Clusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vmwareengine.clusters.delete","title":"Delete Clusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"vmwareengine.clusters.get","title":"Get Clusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
