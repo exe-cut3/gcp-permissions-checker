@@ -43,33 +43,37 @@
 {"name":"agentidentity.authorizations.setIamPolicy","title":"Set IAM Policy for Authorization","description":"Allows setting the IAM policy for an authorization.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.locations.get","title":"Get Location","description":"Allows getting a location.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentidentity.locations.list","title":"List Locations","description":"Allows listing locations.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.agents.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.agents.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.agents.search","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.bindings.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.bindings.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.bindings.fetchAvailable","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.bindings.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.bindings.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.bindings.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.endpoints.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.endpoints.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.mcpServers.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.mcpServers.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.mcpServers.search","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.operations.cancel","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.operations.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.operations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.operations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.agents.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.agents.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.agents.search","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.bindings.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.bindings.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.bindings.fetchAvailable","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.bindings.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.bindings.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.bindings.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.endpoints.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.endpoints.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.locations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.locations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.mcpServers.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.mcpServers.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.mcpServers.search","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.operations.cancel","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.operations.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.operations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.operations.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.publishers.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.publishers.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.services.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.services.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.services.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.services.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.services.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.services.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.services.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.services.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.services.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.services.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skillRevisions.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skillRevisions.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.skillRevisions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -184,6 +188,13 @@
 {"name":"aiplatform.deploymentResourcePools.list","title":"List deploymentResourcePools under a project","description":"List deploymentResourcePools under a project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.deploymentResourcePools.queryDeployedModels","title":"List DeployedModels deployed on a DeploymentResourcePool","description":"List DeployedModels deployed on a DeploymentResourcePool","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.deploymentResourcePools.update","title":"Update deploymentResourcePools","description":"Update deploymentResourcePools","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.create","title":"Create Detector","description":"Create Detector","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.delete","title":"Delete Detector","description":"Delete Detector","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.disable","title":"Disable Detector","description":"Disable Detector","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.enable","title":"Enable Detector","description":"Enable Detector","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.get","title":"Get Detector","description":"Get Detector","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.list","title":"List Detectors","description":"List Detectors","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.detectors.update","title":"Update Detector","description":"Update Detector","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.edgeDeploymentJobs.create","title":"Create edge deployment jobs","description":"Create edge deployment jobs","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.edgeDeploymentJobs.delete","title":"Delete edge deployment jobs","description":"Delete edge deployment jobs","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.edgeDeploymentJobs.get","title":"Get edge deployment jobs","description":"Get edge deployment jobs","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -2306,6 +2317,15 @@
 {"name":"chat.bots.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.agentSettings.get","title":"Get AgentSettings for a customer instance.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.agentSettings.update","title":"Update AgentSettings for a customer instance.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReportTemplates.delete","title":"Delete AgenticCaseReportTemplate.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReportTemplates.get","title":"Get AgenticCaseReportTemplate.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReportTemplates.update","title":"Update AgenticCaseReportTemplate.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReports.delete","title":"Delete AgenticCaseReport.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReports.get","title":"Get AgenticCaseReport.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReports.publish","title":"Publish AgenticCaseReport.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.agenticCaseReports.update","title":"Update AgenticCaseReport.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.aiBillingSettings.get","title":"Get AiBillingSettings for a customer instance.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.aiBillingSettings.update","title":"Update AiBillingSettings for a customer instance.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.ais.createFeedback","title":"Submit feedback on content generated by Malachite AI services.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.ais.translateUdmQuery","title":"Perform AI translation of natural language to UDM Search query.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.ais.translateYlRule","title":"Perform AI translation of natural language search to rule.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7504,7 +7524,9 @@
 {"name":"developerconnect.accountConnectors.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.constructGitHubAppManifest","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.connections.createTagBinding","title":"Create tag binding for connections","description":"Create tag binding for connections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.connections.deleteTagBinding","title":"Delete tag binding for connections","description":"Delete tag binding for connections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.fetchGitHubInstallations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.fetchLinkableGitRepositories","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.generateGitHubStateToken","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7512,20 +7534,32 @@
 {"name":"developerconnect.connections.httpProxyRead","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.httpProxyWrite","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.connections.listEffectiveTags","title":"List effective tags for connections","description":"List effective tags for connections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.connections.listTagBindings","title":"List tag bindings for connections","description":"List tag bindings for connections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.processGitHubAppCreationCallback","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.processGitHubOAuthCallback","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.deploymentEvents.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.deploymentEvents.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.addPullRequestComment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.addPullRequestReviewComment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.diffCommit","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.fetchCommit","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.fetchCommitList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.fetchFileBlame","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.fetchGitRefs","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.fetchPullRequest","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.fetchPullRequestList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.fetchReadToken","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.fetchReadWriteToken","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.gitProxyRead","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.gitProxyWrite","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.gitRepositoryLinks.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.modifyPullRequest","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.gitRepositoryLinks.openPullRequest","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.insightsConfigs.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.insightsConfigs.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.insightsConfigs.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8998,15 +9032,26 @@
 {"name":"gdchardwaremanagement.sites.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.createTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.sites.deleteTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.sites.listEffectiveTags","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.sites.listTagBindings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.sites.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.skus.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.skus.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zoneOperations.createTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zoneOperations.deleteTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zoneOperations.listEffectiveTags","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zoneOperations.listTagBindings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.zones.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zones.createTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.zones.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zones.deleteTagBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.zones.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.zones.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zones.listEffectiveTags","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gdchardwaremanagement.zones.listTagBindings","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gdchardwaremanagement.zones.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"geminicloudassist.agents.invoke","title":"Invoke Agent","description":"Allows invoking a Gemini Cloud Assist Agent.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"geminicloudassist.instances.explain","title":"Invoke Explain Agent","description":"Request to invoke explain agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11241,14 +11286,19 @@
 {"name":"oracledatabase.autonomousDatabaseBackups.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabaseBackups.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabaseCharacterSets.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.autonomousDatabases.changeDisasterRecoveryConfig","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.clone","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.autonomousDatabases.createTagBinding","title":"Create tag binding for autonomousDatabases","description":"Create tag binding for autonomousDatabases","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.autonomousDatabases.deleteTagBinding","title":"Delete tag binding for autonomousDatabases","description":"Delete tag binding for autonomousDatabases","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.failover","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.generateWallet","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.autonomousDatabases.listEffectiveTags","title":"List effective tags for autonomousDatabases","description":"List effective tags for autonomousDatabases","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.listRefreshableClones","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.autonomousDatabases.listTagBindings","title":"List tag bindings for autonomousDatabases","description":"List tag bindings for autonomousDatabases","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.refresh","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.restart","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDatabases.restore","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11258,15 +11308,25 @@
 {"name":"oracledatabase.autonomousDatabases.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.autonomousDbVersions.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudExadataInfrastructures.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudExadataInfrastructures.createTagBinding","title":"Create tag binding for cloudExadataInfrastructures","description":"Create tag binding for cloudExadataInfrastructures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudExadataInfrastructures.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudExadataInfrastructures.deleteTagBinding","title":"Delete tag binding for cloudExadataInfrastructures","description":"Delete tag binding for cloudExadataInfrastructures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudExadataInfrastructures.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudExadataInfrastructures.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudExadataInfrastructures.listEffectiveTags","title":"List effective tags for cloudExadataInfrastructures","description":"List effective tags for cloudExadataInfrastructures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudExadataInfrastructures.listTagBindings","title":"List tag bindings for cloudExadataInfrastructures","description":"List tag bindings for cloudExadataInfrastructures","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudExadataInfrastructures.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudExadataInfrastructures.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudVmClusters.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudVmClusters.createTagBinding","title":"Create tag binding for cloudVmClusters","description":"Create tag binding for cloudVmClusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudVmClusters.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudVmClusters.deleteTagBinding","title":"Delete tag binding for cloudVmClusters","description":"Delete tag binding for cloudVmClusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudVmClusters.disableIdentityConnector","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudVmClusters.enableIdentityConnector","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudVmClusters.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudVmClusters.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudVmClusters.listEffectiveTags","title":"List effective tags for cloudVmClusters","description":"List effective tags for cloudVmClusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.cloudVmClusters.listTagBindings","title":"List tag bindings for cloudVmClusters","description":"List tag bindings for cloudVmClusters","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.cloudVmClusters.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databaseCharacterSets.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.databaseConnections.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11285,14 +11345,24 @@
 {"name":"oracledatabase.dbSystemInitialStorageSizes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbSystemShapes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbSystems.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.dbSystems.createTagBinding","title":"Create tag binding for dbSystems","description":"Create tag binding for dbSystems","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbSystems.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.dbSystems.deleteTagBinding","title":"Delete tag binding for dbSystems","description":"Delete tag binding for dbSystems","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbSystems.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbSystems.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.dbSystems.listEffectiveTags","title":"List effective tags for dbSystems","description":"List effective tags for dbSystems","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.dbSystems.listTagBindings","title":"List tag bindings for dbSystems","description":"List tag bindings for dbSystems","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbSystems.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.dbVersions.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.entitlements.createTagBinding","title":"Create tag binding for entitlements","description":"Create tag binding for entitlements","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.entitlements.deleteTagBinding","title":"Delete tag binding for entitlements","description":"Delete tag binding for entitlements","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.entitlements.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.entitlements.listEffectiveTags","title":"List effective tags for entitlements","description":"List effective tags for entitlements","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.entitlements.listTagBindings","title":"List tag bindings for entitlements","description":"List tag bindings for entitlements","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.exadbVmClusters.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.exadbVmClusters.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.exadbVmClusters.disableIdentityConnector","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.exadbVmClusters.enableIdentityConnector","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.exadbVmClusters.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.exadbVmClusters.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.exadbVmClusters.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
