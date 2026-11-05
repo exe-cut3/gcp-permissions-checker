@@ -1223,10 +1223,14 @@
 {"name":"appengine.versions.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"appengine.versions.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apphub.applications.createTagBinding","title":"Create tag binding for applications","description":"Create tag binding for applications","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apphub.applications.deleteTagBinding","title":"Delete tag binding for applications","description":"Delete tag binding for applications","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apphub.applications.listEffectiveTags","title":"List effective tags for applications","description":"List effective tags for applications","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apphub.applications.listTagBindings","title":"List tag bindings for applications","description":"List tag bindings for applications","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.applications.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.boundaries.attach","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -1570,6 +1574,8 @@
 {"name":"backupdr.bvbackups.update","title":"Update Backup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.useReadOnlyForAlloydbCluster","title":"Use Read Only for AlloyDB","description":"Use backup for restore of AlloyDB clusters","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.useReadOnlyForCloudSqlInstance","title":"Use Read Only for CloudSQL","description":"Use backup for restore of CloudSQL instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bvbackups.useReadOnlyForComputeDisk","title":"Use Read Only for Compute Disk","description":"Use backup for restore of Compute disks","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bvbackups.useReadOnlyForComputeInstance","title":"Use Read Only for Compute","description":"Use backup for restore of Compute instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.useReadOnlyForFilestoreInstance","title":"Use Read Only for Filestore Instance","description":"Use backup for restore of Filestore instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvbackups.useReadOnlyForNetappVolumes","title":"Use Read Only for NetApp Volumes","description":"Use backup for restore of NetApp volumes","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvdataSources.abandonBackup","title":"Abandon Backup","description":"Abandon the in-progress backup in the backup vault","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -1583,6 +1589,8 @@
 {"name":"backupdr.bvdataSources.update","title":"Update DataSource","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvdataSources.useReadOnlyForAlloydbCluster","title":"Use Read Only for AlloyDB","description":"Use dataSource for point in time restore of AlloyDB clusters","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.bvdataSources.useReadOnlyForCloudSqlInstance","title":"Use Read Only for CloudSQL","description":"Use dataSource for point in time restore of CloudSQL instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bvdataSources.useReadOnlyForComputeDisk","title":"Use Read Only for Compute Disk","description":"Use dataSource for performing restores of Compute disks","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.bvdataSources.useReadOnlyForComputeInstance","title":"Use Read Only for Compute","description":"Use dataSource for performing restores of Compute instances","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.compute.restoreFromBackupVault","title":"Restore Compute Engine VMs from a backup vault","description":"Allows restore operations of Compute Engine VMs from a backup vault to the target project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.fetchForAlloydbCluster","title":"Fetch Data Source References for all AlloyDB Clusters","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.dataSourceReferences.fetchForCloudSqlInstance","title":"Fetch Data Source References for all Cloud SQL Instances","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -1648,6 +1656,53 @@
 {"name":"backupdr.resourceBackupConfigs.fetch","title":"Fetch Resource Backup Config","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.resourceBackupConfigs.get","title":"Get Resource Backup Config","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.resourceBackupConfigs.list","title":"List Resource Backup Configs","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTargets.useForCloudSqlInstance","title":"Use Restore Targets for Cloud SQL Instance","description":"Allows restore operations of Cloud SQL instances from a backup vault to the target project","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.getForCloudSqlInstance","title":"Get RestoreTemplateExecution for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.getForComputeDisk","title":"Get RestoreTemplateExecution for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.getForComputeInstance","title":"Get RestoreTemplateExecution for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.list","title":"List RestoreTemplateExecutions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.triggerRestoreCleanupForCloudSqlInstance","title":"Trigger Restore Cleanup for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.triggerRestoreCleanupForComputeDisk","title":"Trigger Restore Cleanup for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplateExecutions.triggerRestoreCleanupForComputeInstance","title":"Trigger Restore Cleanup for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.createForCloudSqlInstance","title":"Create RestoreTemplate for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.createForComputeDisk","title":"Create RestoreTemplate for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.createForComputeInstance","title":"Create RestoreTemplate for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.deleteForCloudSqlInstance","title":"Delete RestoreTemplate for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.deleteForComputeDisk","title":"Delete RestoreTemplate for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.deleteForComputeInstance","title":"Delete RestoreTemplate for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.getForCloudSqlInstance","title":"Get RestoreTemplate for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.getForComputeDisk","title":"Get RestoreTemplate for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.getForComputeInstance","title":"Get RestoreTemplate for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.list","title":"List RestoreTemplates","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.runForCloudSqlInstance","title":"Run RestoreTemplate for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.runForComputeDisk","title":"Run RestoreTemplate for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.runForComputeInstance","title":"Run RestoreTemplate for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.runWithCleanupForCloudSqlInstance","title":"Run Restore Verification for Cloud SQL Instance with auto cleanup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.runWithCleanupForComputeDisk","title":"Run Restore Verification for Compute Disk with auto cleanup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.runWithCleanupForComputeInstance","title":"Run Restore Verification for Compute Instance with auto cleanup","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.updateForCloudSqlInstance","title":"Update RestoreTemplate for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.updateForComputeDisk","title":"Update RestoreTemplate for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.updateForComputeInstance","title":"Update RestoreTemplate for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.useForCloudSqlInstance","title":"Use RestoreTemplate for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.useForComputeDisk","title":"Use RestoreTemplate for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreTemplates.useForComputeInstance","title":"Use RestoreTemplate for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.createForCloudSqlInstance","title":"Create Restore Verification Plan Association for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.createForComputeDisk","title":"Create Restore Verification Plan Association for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.createForComputeInstance","title":"Create Restore Verification Plan Association for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.deleteForCloudSqlInstance","title":"Delete Restore Verification Plan Association for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.deleteForComputeDisk","title":"Delete Restore Verification Plan Association for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.deleteForComputeInstance","title":"Delete Restore Verification Plan Association for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.getForCloudSqlInstance","title":"Get Restore Verification Plan Association for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.getForComputeDisk","title":"Get Restore Verification Plan Association for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.getForComputeInstance","title":"Get Restore Verification Plan Association for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.list","title":"List Restore Verification Plan Associations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.triggerRestoreVerificationForCloudSqlInstance","title":"Trigger Restore Verification for Cloud SQL Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.triggerRestoreVerificationForComputeDisk","title":"Trigger Restore Verification for Compute Disk","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlanAssociations.triggerRestoreVerificationForComputeInstance","title":"Trigger Restore Verification for Compute Instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlans.create","title":"Create Restore Verification Plan","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlans.delete","title":"Delete Restore Verification Plan","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlans.get","title":"Get Restore Verification Plan","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"backupdr.restoreVerificationPlans.list","title":"List Restore Verification Plans","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.serviceConfig.initialize","title":"Initialize BackupDR resources","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.trial.end","title":"End Trial","description":"Provides permissions to end a trial","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"backupdr.trial.get","title":"Get Trial","description":"Provides permissions to get trial","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -1784,8 +1839,11 @@
 {"name":"beyondcorp.securityGateways.get","title":"Get SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.securityGateways.getIamPolicy","title":"Get IAM Policy on SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.securityGateways.list","title":"List SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"beyondcorp.securityGateways.networkAccess","title":"Upstream Access SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"beyondcorp.securityGateways.routeDiscovery","title":"Discover Routes for SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.securityGateways.setIamPolicy","title":"Set IAM Policy on SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.securityGateways.update","title":"Update SecurityGateway","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"beyondcorp.sgApplications.access","title":"Access SecurityGateway Application","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.sgApplications.create","title":"Create SecurityGateway Application","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.sgApplications.delete","title":"Delete SecurityGateway Application","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"beyondcorp.sgApplications.get","title":"Get SecurityGateway Application","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -4123,6 +4181,9 @@
 {"name":"cloudsql.blueGreenDeployments.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.blueGreenDeployments.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.blueGreenDeployments.switchover","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.customerManagedCertificates.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.customerManagedCertificates.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.customerManagedCertificates.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.databases.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.databases.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.databases.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4142,6 +4203,7 @@
 {"name":"cloudsql.instances.deleteTagBinding","title":"Delete Tag Bindings on Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.demoteMaster","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.executeSql","title":"Execute SQL queries in databases of the Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.instances.executeSqlReadOnly","title":"Execute read-only SQL queries in databases of the Cloud SQL instance","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.export","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.failover","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
