@@ -2907,6 +2907,8 @@
 {"name":"chronicle.operations.list","title":"List Long Running Operations","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.operations.streamSearch","title":"Stream Long Running Search Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.operations.wait","title":"Wait On Long Running Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.parserAnalysisReports.get","title":"Get AnalysisReport","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.parserAnalysisReports.list","title":"List AnalysisReports","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parserExtensions.activate","title":"Activates an extension","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parserExtensions.create","title":"Create ParserExtension","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parserExtensions.delete","title":"Delete ParserExtension","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -2924,6 +2926,7 @@
 {"name":"chronicle.parsers.generateEventTypesSuggestions","title":"GenerateEventTypesSuggestions fetches suggestions for event types","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parsers.get","title":"Get a Parser","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parsers.list","title":"List Parsers","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.parsers.runAnalysis","title":"Run Analysis on a parser","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parsers.runParser","title":"Run parser against logs","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parsers.update","title":"Update a Parser","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.parsingErrors.list","title":"List parsing errors of a valiation report","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -6843,7 +6846,7 @@
 {"name":"datalineage.events.get","title":"Get Lineage Events","description":"Get Lineage Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.events.getFields","title":"Get Lineage Event Fields","description":"Get Lineage Event Fields","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.events.list","title":"List Lineage Events","description":"List Lineage Events","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"datalineage.locations.importLineage","title":"Import Lineage","description":"Import Lineage","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"datalineage.locations.importLineage","title":"Import Lineage","description":"Import Lineage","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.locations.processOpenLineageMessage","title":"Process Open Lineage Message","description":"Process Open Lineage Message","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.locations.searchLinks","title":"Search Links","description":"Search Links","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"datalineage.operations.get","title":"Get Operations","description":"Get Operations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7093,6 +7096,7 @@
 {"name":"dataplex.entryGroups.useContextAspect","title":"Use Context Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useContextEntry","title":"Use Context Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useContextEntryLink","title":"Use Context Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useDataContractAspect","title":"Use Data Contract Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useDataProfileAspect","title":"Use Data Profile Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useDataQualityRuleTemplateAspect","title":"Use Data Quality Rule Template Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useDataQualityRuleTemplateEntry","title":"Use Data Quality Rule Template Entry Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7660,6 +7664,7 @@
 {"name":"devicestreaming.deviceSessions.get","title":"Get a device session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicestreaming.deviceSessions.list","title":"List device sesssions","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"devicestreaming.deviceSessions.update","title":"Extend a device session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"devicestreaming.deviceSessions.use","title":"Connect to a device session","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dialogflow.agents.create","title":"Create Agent","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dialogflow.agents.delete","title":"Delete Agent","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dialogflow.agents.export","title":"Export Agent","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11084,6 +11089,11 @@
 {"name":"networksecurity.urlLists.list","title":"List UrlLists","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.update","title":"Update UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.use","title":"Use UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.agentConnectivityTemplates.create","title":"Create AgentConnectivityTemplate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.agentConnectivityTemplates.delete","title":"Delete AgentConnectivityTemplate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.agentConnectivityTemplates.get","title":"Get AgentConnectivityTemplate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.agentConnectivityTemplates.list","title":"List AgentConnectivityTemplate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.agentConnectivityTemplates.update","title":"Update AgentConnectivityTemplate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.agentGateways.create","title":"Create AgentGateway","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.agentGateways.delete","title":"Delete AgentGateway","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.agentGateways.get","title":"Get AgentGateway","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11120,6 +11130,10 @@
 {"name":"networkservices.googleTagGatewayPolicies.get","title":"Get GoogleTagGatewayPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.googleTagGatewayPolicies.list","title":"List GoogleTagGatewayPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.googleTagGatewayPolicies.update","title":"Update GoogleTagGatewayPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.googleapis.com/agentGateways.createPolicyBinding","title":"Create Policy Binding for AgentGateway","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"networkservices.googleapis.com/agentGateways.deletePolicyBinding","title":"Delete Policy Binding for AgentGateway","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"networkservices.googleapis.com/agentGateways.searchPolicyBindings","title":"Search Policy Bindings for AgentGateway","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"networkservices.googleapis.com/agentGateways.updatePolicyBinding","title":"Update Policy Binding for AgentGateway","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"networkservices.grpcRoutes.create","title":"Create GrpcRoute","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.grpcRoutes.delete","title":"Delete GrpcRoute","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.grpcRoutes.get","title":"Get GrpcRoute","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11467,6 +11481,7 @@
 {"name":"oracledatabase.odbDnsZones.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbDnsZones.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbDnsZones.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"oracledatabase.odbDnsZones.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"oracledatabase.odbNetworks.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -14044,6 +14059,21 @@
 {"name":"workloadmanager.rules.list","title":"List Rule","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workloadmanager.workloads.get","title":"Get Workload","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workloadmanager.workloads.list","title":"List Workloads","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.configs.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.configs.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.configs.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.configs.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.configs.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.endpoints.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.endpoints.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.endpoints.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.endpoints.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.operations.cancel","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.operations.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.operations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"workspacekeyaccess.operations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workspacemarketplace.appConfiguration.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workspacemarketplace.appConfiguration.view","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"workstations.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}

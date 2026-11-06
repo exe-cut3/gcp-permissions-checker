@@ -2907,6 +2907,8 @@ chronicle.operations.get
 chronicle.operations.list
 chronicle.operations.streamSearch
 chronicle.operations.wait
+chronicle.parserAnalysisReports.get
+chronicle.parserAnalysisReports.list
 chronicle.parserExtensions.activate
 chronicle.parserExtensions.create
 chronicle.parserExtensions.delete
@@ -2924,6 +2926,7 @@ chronicle.parsers.delete
 chronicle.parsers.generateEventTypesSuggestions
 chronicle.parsers.get
 chronicle.parsers.list
+chronicle.parsers.runAnalysis
 chronicle.parsers.runParser
 chronicle.parsers.update
 chronicle.parsingErrors.list
@@ -7093,6 +7096,7 @@ dataplex.entryGroups.useContactsAspect
 dataplex.entryGroups.useContextAspect
 dataplex.entryGroups.useContextEntry
 dataplex.entryGroups.useContextEntryLink
+dataplex.entryGroups.useDataContractAspect
 dataplex.entryGroups.useDataProfileAspect
 dataplex.entryGroups.useDataQualityRuleTemplateAspect
 dataplex.entryGroups.useDataQualityRuleTemplateEntry
@@ -7660,6 +7664,7 @@ devicestreaming.deviceSessions.create
 devicestreaming.deviceSessions.get
 devicestreaming.deviceSessions.list
 devicestreaming.deviceSessions.update
+devicestreaming.deviceSessions.use
 dialogflow.agents.create
 dialogflow.agents.delete
 dialogflow.agents.export
@@ -11084,6 +11089,11 @@ networksecurity.urlLists.get
 networksecurity.urlLists.list
 networksecurity.urlLists.update
 networksecurity.urlLists.use
+networkservices.agentConnectivityTemplates.create
+networkservices.agentConnectivityTemplates.delete
+networkservices.agentConnectivityTemplates.get
+networkservices.agentConnectivityTemplates.list
+networkservices.agentConnectivityTemplates.update
 networkservices.agentGateways.create
 networkservices.agentGateways.delete
 networkservices.agentGateways.get
@@ -11120,6 +11130,10 @@ networkservices.googleTagGatewayPolicies.delete
 networkservices.googleTagGatewayPolicies.get
 networkservices.googleTagGatewayPolicies.list
 networkservices.googleTagGatewayPolicies.update
+networkservices.googleapis.com/agentGateways.createPolicyBinding
+networkservices.googleapis.com/agentGateways.deletePolicyBinding
+networkservices.googleapis.com/agentGateways.searchPolicyBindings
+networkservices.googleapis.com/agentGateways.updatePolicyBinding
 networkservices.grpcRoutes.create
 networkservices.grpcRoutes.delete
 networkservices.grpcRoutes.get
@@ -11467,6 +11481,7 @@ oracledatabase.odbDnsZones.create
 oracledatabase.odbDnsZones.delete
 oracledatabase.odbDnsZones.get
 oracledatabase.odbDnsZones.list
+oracledatabase.odbDnsZones.update
 oracledatabase.odbNetworks.create
 oracledatabase.odbNetworks.delete
 oracledatabase.odbNetworks.get
@@ -14044,6 +14059,21 @@ workloadmanager.results.list
 workloadmanager.rules.list
 workloadmanager.workloads.get
 workloadmanager.workloads.list
+workspacekeyaccess.configs.create
+workspacekeyaccess.configs.delete
+workspacekeyaccess.configs.get
+workspacekeyaccess.configs.list
+workspacekeyaccess.configs.update
+workspacekeyaccess.endpoints.create
+workspacekeyaccess.endpoints.get
+workspacekeyaccess.endpoints.list
+workspacekeyaccess.endpoints.update
+workspacekeyaccess.locations.get
+workspacekeyaccess.locations.list
+workspacekeyaccess.operations.cancel
+workspacekeyaccess.operations.delete
+workspacekeyaccess.operations.get
+workspacekeyaccess.operations.list
 workspacemarketplace.appConfiguration.update
 workspacemarketplace.appConfiguration.view
 workstations.operations.get
