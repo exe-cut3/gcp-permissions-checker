@@ -2878,6 +2878,7 @@
 {"name":"chronicle.marketplaceIntegrations.install","title":"Install Marketplace Integration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.marketplaceIntegrations.uninstall","title":"Uninstall Marketplace Integration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.create","title":"Create New Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.messages.createLongRunning","title":"Create New Message Long Running.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.delete","title":"Delete an existing Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.get","title":"Get Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.list","title":"List Messages.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4235,7 +4236,9 @@
 {"name":"cloudsql.instances.rotateEntraIdCertificate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.rotateServerCa","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.rotateServerCertificate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.instances.start","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.startReplica","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.instances.stop","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.stopReplica","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.truncateLog","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4522,6 +4525,11 @@
 {"name":"compute.acceleratorInterconnects.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorInterconnects.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorInterconnects.queryFormability","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.addresses.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7110,6 +7118,7 @@
 {"name":"dataplex.entryGroups.useGenericAspect","title":"Use Generic Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGenericEntry","title":"Use Generic Entry Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useGraphProfileAspect","title":"Use Graph Profile Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useGuidelinesAspect","title":"Use Guidelines Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useManagedConnectorTypes","title":"Ability to add entries/context from any of the GCP managed connectors.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useMySQLConnectorTypes","title":"Use MySQL Entry and Aspect Types.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useOracleConnectorTypes","title":"Use Oracle Entry and Aspect Types.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7129,6 +7138,7 @@
 {"name":"dataplex.entryGroups.useSchemaJoinEntryLink","title":"Use Schema Join Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useSecondaryIndexesAspect","title":"Use Secondary Indexes Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useStorageAspect","title":"Use Storage Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"dataplex.entryGroups.useStructuredDataAspect","title":"Use Structured Data Aspect Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useSynonymEntryLink","title":"Use Synonym Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryGroups.useUsageAspect","title":"Use Usage Aspect Type.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"dataplex.entryLinkTypes.create","title":"Create an Entry Link Type","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7584,8 +7594,8 @@
 {"name":"developerconnect.accountConnectors.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.accountConnectors.gitProxyRead","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.accountConnectors.gitProxyWrite","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"developerconnect.accountConnectors.httpProxyRead","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"developerconnect.accountConnectors.httpProxyWrite","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.accountConnectors.httpProxyRead","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.accountConnectors.httpProxyWrite","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.accountConnectors.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.accountConnectors.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.constructGitHubAppManifest","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -7597,8 +7607,8 @@
 {"name":"developerconnect.connections.fetchLinkableGitRepositories","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.generateGitHubStateToken","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"developerconnect.connections.httpProxyRead","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"developerconnect.connections.httpProxyWrite","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.connections.httpProxyRead","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"developerconnect.connections.httpProxyWrite","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.listEffectiveTags","title":"List effective tags for connections","description":"List effective tags for connections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"developerconnect.connections.listTagBindings","title":"List tag bindings for connections","description":"List tag bindings for connections","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11041,10 +11051,10 @@
 {"name":"networksecurity.mirroringEndpointGroups.list","title":"List Mirroring Endpoint Groups","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.mirroringEndpointGroups.update","title":"Update Mirroring Endpoint Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.mirroringEndpointGroups.use","title":"Associate a network or a SecurityProfile to Mirroring Endpoint Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.cancel","title":"Cancel Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.create","title":"Create sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.delete","title":"Delete sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.get","title":"Get sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11083,6 +11093,23 @@
 {"name":"networksecurity.tlsInspectionPolicies.list","title":"List TlsInspectionPolicies","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.tlsInspectionPolicies.update","title":"Update TlsInspectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.tlsInspectionPolicies.use","title":"Use TlsInspectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.create","title":"Create Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.delete","title":"Delete Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.get","title":"Get Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.list","title":"List Ull Mirroring Collector Rules","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.update","title":"Update Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.create","title":"Create Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.delete","title":"Delete Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.get","title":"Get Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.list","title":"List Ull Mirroring Collectors.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.update","title":"Update Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.create","title":"Create Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.delete","title":"Delete Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.get","title":"Get Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.list","title":"List Ull Mirroring Engines.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.listNetworks","title":"List Ull Networks that are connected to given Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.update","title":"Update Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.use","title":"Use Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.create","title":"Create UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.delete","title":"Delete UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.get","title":"Get UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11193,10 +11220,10 @@
 {"name":"networkservices.meshes.listTagBindings","title":"List Tag Bindings on Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.meshes.update","title":"Update Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.meshes.use","title":"Use Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.cancel","title":"Cancel Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.route_views.get","title":"Get RouteView","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.route_views.list","title":"List RouteViews","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.serviceBindings.create","title":"Create ServiceBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
