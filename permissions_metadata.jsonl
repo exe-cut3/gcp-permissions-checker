@@ -2878,7 +2878,6 @@
 {"name":"chronicle.marketplaceIntegrations.install","title":"Install Marketplace Integration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.marketplaceIntegrations.uninstall","title":"Uninstall Marketplace Integration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.create","title":"Create New Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"chronicle.messages.createLongRunning","title":"Create New Message Long Running.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.delete","title":"Delete an existing Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.get","title":"Get Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.list","title":"List Messages.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4236,9 +4235,7 @@
 {"name":"cloudsql.instances.rotateEntraIdCertificate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.rotateServerCa","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.rotateServerCertificate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"cloudsql.instances.start","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.startReplica","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"cloudsql.instances.stop","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.stopReplica","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.truncateLog","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4525,11 +4522,6 @@
 {"name":"compute.acceleratorInterconnects.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorInterconnects.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorInterconnects.queryFormability","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.acceleratorPodControllers.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.acceleratorPodControllers.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.acceleratorPodControllers.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.acceleratorPodControllers.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.acceleratorPodControllers.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.addresses.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5101,12 +5093,12 @@
 {"name":"compute.publicDelegatedPrefixes.updatePolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.publicDelegatedPrefixes.use","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.publicDelegatedPrefixes.withdraw","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.recoverableSnapshots.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.recoverableSnapshots.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.recoverableSnapshots.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.recoverableSnapshots.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.recoverableSnapshots.recover","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.recoverableSnapshots.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.recoverableSnapshots.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.recoverableSnapshots.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.recoverableSnapshots.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.recoverableSnapshots.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.recoverableSnapshots.recover","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.recoverableSnapshots.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionBackendBuckets.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionBackendBuckets.createTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.regionBackendBuckets.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5376,8 +5368,8 @@
 {"name":"compute.snapshotGroups.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshotGroups.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshotGroups.useReadOnly","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.snapshotRecycleBinPolicy.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.snapshotRecycleBinPolicy.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.snapshotRecycleBinPolicy.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.snapshotRecycleBinPolicy.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshotSettings.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshotSettings.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshots.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -5385,7 +5377,7 @@
 {"name":"compute.snapshots.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshots.deleteTagBinding","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshots.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"compute.snapshots.getEffectiveRecycleBinRule","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.snapshots.getEffectiveRecycleBinRule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshots.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshots.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.snapshots.listEffectiveTags","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -8999,6 +8991,22 @@
 {"name":"firebasestorage.defaultBucket.create","title":"Create the default bucket","description":"Create the Spark tier-eligible bucket in the given project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasestorage.defaultBucket.delete","title":"Delete the default bucket","description":"Delete the Spark tier-eligible bucket in the given project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasestorage.defaultBucket.get","title":"Get the default bucket","description":"Get the name of the Spark tier-eligible bucket in the given project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.configs.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.configs.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.configs.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.configs.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.configs.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.locations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.locations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.mappingFiles.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.mappingFiles.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.mappingFiles.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.mappingFiles.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.mappingFiles.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.operations.cancel","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.operations.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.operations.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"firebasetelemetryadmin.operations.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasevertexai.configs.get","title":"Get","description":"Get a Config","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasevertexai.configs.update","title":"Update","description":"Update a Config","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"firebasevertexai.promptTemplates.create","title":"Create","description":"Create a PromptTemplate","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -9420,8 +9428,8 @@
 {"name":"gkeonprem.vmwareNodePools.unenroll","title":"Unenroll VMware Node Pools","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gkeonprem.vmwareNodePools.update","title":"Update VMware Node Pools","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.authorizations.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"gsuiteaddons.chatAppConfigs.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"gsuiteaddons.chatAppConfigs.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gsuiteaddons.chatAppConfigs.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"gsuiteaddons.chatAppConfigs.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.deployments.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.deployments.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"gsuiteaddons.deployments.execute","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -11051,10 +11059,10 @@
 {"name":"networksecurity.mirroringEndpointGroups.list","title":"List Mirroring Endpoint Groups","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.mirroringEndpointGroups.update","title":"Update Mirroring Endpoint Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.mirroringEndpointGroups.use","title":"Associate a network or a SecurityProfile to Mirroring Endpoint Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.cancel","title":"Cancel Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.create","title":"Create sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.delete","title":"Delete sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.get","title":"Get sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11093,23 +11101,6 @@
 {"name":"networksecurity.tlsInspectionPolicies.list","title":"List TlsInspectionPolicies","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.tlsInspectionPolicies.update","title":"Update TlsInspectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.tlsInspectionPolicies.use","title":"Use TlsInspectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectorRules.create","title":"Create Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectorRules.delete","title":"Delete Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectorRules.get","title":"Get Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectorRules.list","title":"List Ull Mirroring Collector Rules","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectorRules.update","title":"Update Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectors.create","title":"Create Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectors.delete","title":"Delete Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectors.get","title":"Get Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectors.list","title":"List Ull Mirroring Collectors.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringCollectors.update","title":"Update Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.create","title":"Create Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.delete","title":"Delete Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.get","title":"Get Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.list","title":"List Ull Mirroring Engines.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.listNetworks","title":"List Ull Networks that are connected to given Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.update","title":"Update Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.ullMirroringEngines.use","title":"Use Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.create","title":"Create UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.delete","title":"Delete UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.get","title":"Get UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11220,10 +11211,10 @@
 {"name":"networkservices.meshes.listTagBindings","title":"List Tag Bindings on Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.meshes.update","title":"Update Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.meshes.use","title":"Use Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.cancel","title":"Cancel Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.route_views.get","title":"Get RouteView","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.route_views.list","title":"List RouteViews","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.serviceBindings.create","title":"Create ServiceBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
