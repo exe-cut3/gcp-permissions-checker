@@ -46,10 +46,14 @@
 {"name":"agentregistry.agents.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.agents.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.agents.search","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.createPolicyBinding","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"agentregistry.aiApplications.deletePolicyBinding","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"agentregistry.aiApplications.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.aiApplications.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.aiApplications.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.searchPolicyBindings","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"agentregistry.aiApplications.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.aiApplications.updatePolicyBinding","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"agentregistry.bindings.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.bindings.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.bindings.fetchAvailable","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -74,18 +78,18 @@
 {"name":"agentregistry.services.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.services.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"agentregistry.services.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skillRevisions.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skillRevisions.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skillRevisions.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skillRevisions.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.create","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.delete","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.get","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.getIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.list","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.search","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.setIamPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"agentregistry.skills.update","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skillRevisions.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skillRevisions.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skillRevisions.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skillRevisions.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.getIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.search","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.setIamPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"agentregistry.skills.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentAnomalyDetectionScopes.create","title":"Create AgentAnomalyDetectionScope","description":"Create AgentAnomalyDetectionScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentAnomalyDetectionScopes.delete","title":"Delete AgentAnomalyDetectionScope","description":"Delete AgentAnomalyDetectionScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.agentAnomalyDetectionScopes.get","title":"Get AgentAnomalyDetectionScope","description":"Get AgentAnomalyDetectionScope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -234,6 +238,7 @@
 {"name":"aiplatform.evaluationExperiments.get","title":"Get Evaluation Experiment","description":"Get Evaluation Experiment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationExperiments.list","title":"List Evaluation Experiments","description":"List Evaluation Experiments","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationExperiments.update","title":"Update Evaluation Experiment","description":"Update Evaluation Experiment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.evaluationItemRevisions.get","title":"Get Evaluation Item Revision","description":"Get Evaluation Item Revision","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationItems.create","title":"Create Evaluation Item","description":"Create Evaluation Item","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationItems.delete","title":"Delete Evaluation Item","description":"Delete Evaluation Item","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationItems.get","title":"Get Evaluation Item","description":"Get Evaluation Item","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -250,6 +255,8 @@
 {"name":"aiplatform.evaluationRuns.get","title":"Get Evaluation Run","description":"Get Evaluation Run","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationRuns.list","title":"List Evaluation Run under a project","description":"List Evaluation Run under a project","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationRuns.update","title":"Update Evaluation Run","description":"Update Evaluation Run","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.evaluationSetRevisions.delete","title":"Delete Evaluation Set Revision","description":"Delete Evaluation Set Revision","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"aiplatform.evaluationSetRevisions.get","title":"Get Evaluation Set Revision","description":"Get Evaluation Set Revision","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationSets.create","title":"Create Evaluation Set","description":"Create Evaluation Set","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationSets.delete","title":"Delete Evaluation Set","description":"Delete Evaluation Set","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"aiplatform.evaluationSets.get","title":"Get Evaluation Set","description":"Get Evaluation Set","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -1267,6 +1274,7 @@
 {"name":"apphub.workloads.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.workloads.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"apphub.workloads.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"apphubendpoint.locations.lookup","title":"Lookup","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"applianceactivation.rttCommands.approve","title":"Approve RTT commands","description":"Approve an RTT command to be run on the appliance","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"applianceactivation.rttCommands.create","title":"Create new RTT commands","description":"Create new RTT commands","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"applianceactivation.rttCommands.get","title":"Get an RTT command","description":"Get an RTT command","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -2878,6 +2886,7 @@
 {"name":"chronicle.marketplaceIntegrations.install","title":"Install Marketplace Integration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.marketplaceIntegrations.uninstall","title":"Uninstall Marketplace Integration.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.create","title":"Create New Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"chronicle.messages.createLongRunning","title":"Create New Message Long Running.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.delete","title":"Delete an existing Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.get","title":"Get Message.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"chronicle.messages.list","title":"List Messages.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4235,7 +4244,9 @@
 {"name":"cloudsql.instances.rotateEntraIdCertificate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.rotateServerCa","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.rotateServerCertificate","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.instances.start","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.startReplica","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"cloudsql.instances.stop","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.stopReplica","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.truncateLog","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"cloudsql.instances.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -4522,6 +4533,11 @@
 {"name":"compute.acceleratorInterconnects.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorInterconnects.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorInterconnects.queryFormability","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.delete","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"compute.acceleratorPodControllers.update","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.get","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.acceleratorTypes.list","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"compute.addresses.create","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
@@ -6502,13 +6518,13 @@
 {"name":"databaseinsights.resourceMetadata.fetch","title":"Fetch Resource Metadata","description":"Fetch Resource Metadata for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.resourceRecommendations.query","title":"Query Resource Recommendations","description":"Query Resource Recommendations","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.systemMetrics.fetch","title":"Fetch System Metrics","description":"Fetch system metrics for all supported databases.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"databaseinsights.tasks.applyTaskRemediation","title":"Apply Task Remediations","description":"Apply suggested remediations for a task","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.tasks.dismissTask","title":"Dismiss VDBA Task","description":"Dismiss a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.applyTaskRemediation","title":"Apply Task Remediations","description":"Apply suggested remediations for a task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.tasks.dismissTask","title":"Dismiss VDBA Task","description":"Dismiss a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.tasks.fixTask","title":"Fix VDBA Task","description":"Fix a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"databaseinsights.tasks.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.tasks.listTasks","title":"List VDBA Tasks","description":"List VDBA Tasks for a given scope","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.tasks.markTaskAsDone","title":"Mark a Task as Done manually","description":"Mark a Task as Done manually","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.tasks.restoreTask","title":"Restore VDBA Task","description":"Restore a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.tasks.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.tasks.listTasks","title":"List VDBA Tasks","description":"List VDBA Tasks for a given scope","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.tasks.markTaskAsDone","title":"Mark a Task as Done manually","description":"Mark a Task as Done manually","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"databaseinsights.tasks.restoreTask","title":"Restore VDBA Task","description":"Restore a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.telemetryConfig.fetch","title":"Telemetry Config","description":"Telemetry Config","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.timeSeries.query","title":"Query Time Series","description":"Query Time Series","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.traces.fetch","title":"Fetch Traces","description":"Fetch Traces.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -6521,7 +6537,7 @@
 {"name":"databaseinsights.virtualDbaAgent.disable","title":"Disable Virtual DBA Agent","description":"Disable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.virtualDbaAgent.enable","title":"Enable Virtual DBA Agent","description":"Enable the Virtual DBA Agent for the project.","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.virtualDbaAgent.fetchContextService","title":"Fetch VDBA Context Service","description":"Fetch Context Service for Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
-{"name":"databaseinsights.virtualDbaAgent.get","title":"Get Virtual DBA Agent","description":"Get Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"TESTING"}
+{"name":"databaseinsights.virtualDbaAgent.get","title":"Get Virtual DBA Agent","description":"Get Virtual DBA Agent","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"databaseinsights.virtualDbaAgent.getAgentPolicy","title":"Get VDBA Agent Policy","description":"Get VDBA Agent Policy","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getGoal","title":"Get VDBA Goal","description":"Get VDBA Goal","stage":"BETA","customRolesSupportLevel":"TESTING"}
 {"name":"databaseinsights.virtualDbaAgent.getTask","title":"Get VDBA Task","description":"Get a particular VDBA Task","stage":"BETA","customRolesSupportLevel":"TESTING"}
@@ -10953,13 +10969,13 @@
 {"name":"networksecurity.authorizationPolicies.setIamPolicy","title":"Set IAM Policy on AuthorizationPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.authorizationPolicies.update","title":"Update AuthorizationPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.authorizationPolicies.use","title":"Use AuthorizationPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.create","title":"Create AuthzPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.delete","title":"Delete AuthzPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.get","title":"Get AuthzPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.getIamPolicy","title":"Get IAM Policy on AuthzPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.list","title":"List AuthzPolicies","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.setIamPolicy","title":"Set IAM Policy on AuthzPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.authzPolicies.update","title":"Update AuthzPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.create","title":"Create AuthzPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.delete","title":"Delete AuthzPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.get","title":"Get AuthzPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.getIamPolicy","title":"Get IAM Policy on AuthzPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.list","title":"List AuthzPolicies","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.setIamPolicy","title":"Set IAM Policy on AuthzPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.authzPolicies.update","title":"Update AuthzPolicy","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.backendAuthenticationConfigs.create","title":"Create BackendAuthenticationConfig","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.backendAuthenticationConfigs.delete","title":"Delete BackendAuthenticationConfig","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.backendAuthenticationConfigs.get","title":"Get BackendAuthenticationConfig","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11059,10 +11075,10 @@
 {"name":"networksecurity.mirroringEndpointGroups.list","title":"List Mirroring Endpoint Groups","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.mirroringEndpointGroups.update","title":"Update Mirroring Endpoint Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.mirroringEndpointGroups.use","title":"Associate a network or a SecurityProfile to Mirroring Endpoint Group","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networksecurity.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.cancel","title":"Cancel Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.create","title":"Create sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.delete","title":"Delete sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.sacAttachments.get","title":"Get sacAttachment","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11101,6 +11117,23 @@
 {"name":"networksecurity.tlsInspectionPolicies.list","title":"List TlsInspectionPolicies","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.tlsInspectionPolicies.update","title":"Update TlsInspectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.tlsInspectionPolicies.use","title":"Use TlsInspectionPolicy","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.create","title":"Create Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.delete","title":"Delete Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.get","title":"Get Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.list","title":"List Ull Mirroring Collector Rules","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectorRules.update","title":"Update Ull Mirroring Collector Rule","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.create","title":"Create Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.delete","title":"Delete Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.get","title":"Get Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.list","title":"List Ull Mirroring Collectors.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringCollectors.update","title":"Update Ull Mirroring Collector.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.create","title":"Create Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.delete","title":"Delete Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.get","title":"Get Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.list","title":"List Ull Mirroring Engines.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.listNetworks","title":"List Ull Networks that are connected to given Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.update","title":"Update Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networksecurity.ullMirroringEngines.use","title":"Use Ull Mirroring Engine.","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.create","title":"Create UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.delete","title":"Delete UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networksecurity.urlLists.get","title":"Get UrlList","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
@@ -11211,10 +11244,10 @@
 {"name":"networkservices.meshes.listTagBindings","title":"List Tag Bindings on Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.meshes.update","title":"Update Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.meshes.use","title":"Use Mesh","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.cancel","title":"Cancel Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.delete","title":"Delete Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.get","title":"Get Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
-{"name":"networkservices.operations.list","title":"List Operation","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.cancel","title":"Cancel Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.delete","title":"Delete Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.get","title":"Get Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
+{"name":"networkservices.operations.list","title":"List Operation","stage":"GA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.route_views.get","title":"Get RouteView","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.route_views.list","title":"List RouteViews","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
 {"name":"networkservices.serviceBindings.create","title":"Create ServiceBinding","stage":"BETA","customRolesSupportLevel":"SUPPORTED"}
